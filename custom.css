@@ -1,0 +1,106 @@
+body{
+    background: url('assets/objetos/bg-floresta.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    padding: 0 !important;
+    max-width: 100%;
+}
+.menu{
+    width: 990px;
+}
+.img-menina{
+    background: url('assets/objetos/img-menina.jpg') no-repeat;
+    background-position: top center;
+    width: 490px;
+    height: 100vh;
+}
+
+.img-menino{
+    background: url('assets/objetos/img-menino.jpg') no-repeat;
+    background-position: top center;
+    width: 490px;
+    height: 100vh;
+}
+.titulo{
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.menu ul{padding: 0;}
+.menu li{
+    list-style: none;
+    width: 295px;
+    height: 72px;
+    margin-bottom: 20px;
+}
+.menu a{
+    width: 295px;
+    height: 72px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+.bt-fenomeno{
+    background: url('assets/objetos/bt02.png') no-repeat;
+    animation-delay: 2s;
+}
+.bt-fenomeno:hover{
+    background: url('assets/objetos/bt02_.png') no-repeat;
+}
+.bt-disputas{
+    background: url('assets/objetos/bt04.png') no-repeat;
+    animation-delay: 3s;
+}
+.bt-disputas:hover{
+    background: url('assets/objetos/bt04_.png') no-repeat;
+}
+.bt-fronteiras{
+    background: url('assets/objetos/bt05.png') no-repeat;
+    animation-delay: 4s;
+}
+.bt-fronteiras:hover{
+    background: url('assets/objetos/bt05_.png') no-repeat;
+}
+.bt-questoes{
+    background: url('assets/objetos/bt06.png') no-repeat;
+    animation-delay: 5s;
+}
+.bt-questoes:hover{
+    background: url('assets/objetos/bt06_.png') no-repeat;
+}
+.bt-referencias{
+    background: url('assets/objetos/bt07.png') no-repeat;
+    animation-delay: 6s;
+}
+.bt-referencias:hover{
+    background: url('assets/objetos/bt07_.png') no-repeat;
+}
+
+@media screen and (max-width: 768px){
+    .inicial{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .menu li a{
+        animation-delay: 1s !important;
+    }
+    .titulo{
+        margin-top: 100px;
+        padding: 0 20px;
+    }
+}

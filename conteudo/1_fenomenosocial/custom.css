@@ -1,0 +1,33 @@
+.notasmusicais{
+    background: url(../../assets/objetos/nota-musical.png) top left no-repeat, url(../../assets/objetos/nota-musical2.png) bottom right no-repeat;
+    max-width: 300px;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+}
+
+.legenda {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+
+  .parallax {
+    background-image: url("../../assets/objetos/parallax_territorio.jpg");
+      height: 500px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+    
+.parallax.divisao {
+      background-image: url("../../assets/objetos/parallax_divisao.jpg");
+    }
+    
+    .parallax.florestal  {
+      background-image: url("../../assets/objetos/parallax_florestal.jpg");
+    }
+    
