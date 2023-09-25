@@ -1,6 +1,6 @@
 .notasmusicais{
-    background: url(../../assets/objetos/nota-musical.png) top left no-repeat, url(../../assets/objetos/nota-musical2.png) bottom right no-repeat;
-    max-width: 300px;
+    background: url(../../img/destaque_music01.svg) top left no-repeat, url(../../img/destaque_music02.svg) bottom right no-repeat;
+    max-width: 600px;
     margin-left: auto; 
     margin-right: auto;
     display: block;

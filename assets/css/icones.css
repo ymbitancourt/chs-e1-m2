@@ -11,7 +11,8 @@
 }
 
 .icone.dica::before{
-    background-image: url(../../assets/objetos/ico-dica2.png);
+    background-image: url("../../img/ico_dica.png");
+    background-color: transparent;
 }
 
 
@@ -49,13 +50,17 @@
   }
 
 .icone.praticar::before{
-    background-image: url(../../assets/objetos/ico-praticar.png);
+    background-image: url("../../img/ico_vamospraticar.png");
+    background-color: transparent;
 }
 
 .icone.pergunta::before{
-    background-image: url(../../assets/objetos/ico-pergunta.png);
+    background-image: url("../../img/ico_pergunta.png");
+    width: 91px;
+    left: -60px;
+    background-color: transparent;
 }
-.bloco.estilo3 .caixa.icone.pergunta::before {
+/* .bloco.estilo3 .caixa.icone.pergunta::before {
     background-color: #004f53;
     background-image: url(../../assets/objetos/icone_pergunta.png);
   }
@@ -67,19 +72,26 @@
   .bloco.estilo1 .caixa.icone.pergunta::before {
     background-color: #00838d;
     background-image: url(../../assets/objetos/icone_pergunta.png);
-  }
+  } */
 
 
 .icone.refletir::before{
-    background-image: url(../../assets/objetos/ico-refletir.png);
+    background-image: url(../../img/ico_refletir.png);
+    width: 92px;
+    top: -20px;
+    left: -47px;
+    background-color: transparent;
 }
 
 .icone.saiba-mais::before{
-    background-image: url(../../assets/objetos/ico-saiba.png);
+    background-image: url(../../img/);
 }
 
 .icone.atencao::before{
-    background-image: url(../../assets/objetos/ico-atencao.png);
+    background-image: url(../../img/ico_importante.png);
+    left: -60px;
+    width: 106px;
+    background-color: transparent;
 }
 .icone.juridico::before{
     background-image: url(../../assets/objetos/icone-constituicao.png);
@@ -95,11 +107,15 @@
     background-image: url(../../assets/objetos/icone-cinema.png);
 }
 .icone.importante::before{
-    background-image: url(../../assets/objetos/icone_importante2.png);
+  background-image: url(../../img/ico_importante.png);
+  left: -60px;
+  width: 106px;
+  background-color: transparent;
 }
 .icone.importante::before {
-    width: 96px;    
-    left: -45px;
+  left: -60px;
+  width: 106px;
+  background-color: transparent;
 }
 @media print{
     .icone::before{

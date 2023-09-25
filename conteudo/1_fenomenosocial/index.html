@@ -16,6 +16,11 @@
 
     <link rel="stylesheet" href="../../assets/print/print.css">
     <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="../1_fenomenosocial/custom.css">
+    <link rel="stylesheet" href="../2_disputas_territoriais/custom.css">
+    <link rel="stylesheet" href="../3_juventude/03/custom.css">
+    <link rel="stylesheet" href="../4_questoes_ambientais/04/custom.css">
+    <link rel="stylesheet" href="../../assets/interativos/objeto_associarColunas/css/associar-colunas.css">
 
 
 </head>
@@ -32,6 +37,25 @@
         <img src="../../assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
     </header>
     <!-- Section principal deve ter o booklet, pois faz parte do print.js -->
+    
+  <div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="?page=1#titulo1">Introdução </a></li>
+      <li><a class="dropdown-item" href="?page=2#titulo2">Terras indígenas</a></li>
+      <li><a class="dropdown-item" href="?page=2#titulo3">Paisagem </a></li>
+      <li><a class="dropdown-item" href="?page=2#titulo4">Espaço geográfico </a></li>
+      <li><a class="dropdown-item" href="?page=3#titulo5">Território  </a></li>
+      <li><a class="dropdown-item" href="?page=4#titulo6">Fronteiras urbanas </a></li>
+      <li><a class="dropdown-item" href="?page=4#titulo7">Fronteiras culturais </a></li>
+      <li><a class="dropdown-item" href="?page=5#titulo8">Questões ambientais </a></li>
+      <li><a class="dropdown-item" href="?page=5#titulo10">Ética ambiental </a></li>
+      <li><a class="dropdown-item" href="?page=6#titulo11">Reservas naturais </a></li>
+      <li><a class="dropdown-item" href="?page=6#titulo12">Encerramento </a></li>
+      <li><a class="dropdown-item" href="?page=7#titulo13">Referências </a></li>
+  </div>
+
     <section id="booklet">
         <!--Dentro do section devemos ter um elemento com a classe paginas, para funcionar a paginação/print-->
         <header class="titulo-conteudo mb-0 print">
@@ -39,9 +63,9 @@
                 <!--titulo do curso para o print e leitor de tela-->
                 <h1 id="nome-curso" class="d-none print mt-0 text-center w-100">Ciências Humanas e Sociais aplicadas
                 </h1>
-                <div class="row g-0 pb-4 pt-4">
+                <div class="row h1tit">
                     <div class="col-12 col-sm-9 d-flex flex-column justify-content-center align-items-start">
-                        <h1>Fenômeno social: exploração das terras indígenas no Brasil</h1>
+                        <h1 class="h1tit"></h1>
                     </div>
                     <div class="col-12 col-sm-3 d-flex flex-column justify-content-center align-items-end">
                         <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i
@@ -52,11 +76,11 @@
         </header>
         <section class="paginas">
             <!-- pagina 1 -->
-            <div class="pagina">
-                <img src="../../assets/img/vector.png" class="rellax detalhe1 no-print" data-rellax-speed="5"
+            <div class="pagina estilo1">
+                <!-- <img src="../../assets/img/vector.png" class="rellax detalhe1 no-print" data-rellax-speed="5"
                     data-rellax-zindex="10" alt="">
                 <img src="../../assets/img/vetor-bg-topo.png" class="rellax detalhe2 no-print" data-rellax-speed="5"
-                    data-rellax-zindex="10" alt="">
+                    data-rellax-zindex="10" alt=""> -->
 
                 <div class="container"><br>
                     <h2 class="padrao">Introdução</h2><br>
@@ -89,15 +113,14 @@
 
                 
 
-                <div class="bloco estilo1">
-                    <div style="position: relative; z-index: 1">
+                <div class="bloco estilo2">
+                    <!-- <div style="position: relative; z-index: 1">
                         <img src="../../assets/img/vetor5.png" class="rellax detalhe3 no-print" data-rellax-speed="3"
                             data-rellax-zindex="10" alt="">
-                    </div>
+                    </div> -->
                     <div class="container">
-                        <img src="../../assets/img/quadrado.png" class="no-print" alt="">
+                        <!-- <img src="../../assets/img/quadrado.png" class="no-print" alt=""> -->
                         <h2>Terras indígenas de Rondônia estão entre as mais desmatadas em 2021</h2>
-                        <br><br>
 
                         <a href="../../assets/objetos/fig01.jpg" target="_blank" aria-hidden="true"
                             class="d-block text-center"><img src="../../assets/objetos/fig01.jpg" alt=""
@@ -134,7 +157,7 @@
                             atualizadas
                             diariamente e é um excelente meio de informação sobre o tema.</p>
 
-                        <h1>podcast</h1>
+                        <img src="../../img/podcast.svg" alt="">
                         <div class="acessivel visually-hidden print">
                             <p>
                                 A devastação da floresta amazônica teve uma queda de 54% nos primeiros cinco meses deste ano em comparação com o mesmo período de 2022. Apesar dessa redução, 2023 ainda teve a quarta maior área desmatada em pelo menos 16 anos, ficando atrás apenas de 2022, 2021 e 2020.
@@ -156,28 +179,25 @@
                                 geográfico: diferentes interações e transformações</strong>.</p>
 
 
-                    </div>
                     
-                    <div style="position: relative; z-index: 1">
+                    <!-- <div style="position: relative; z-index: 1">
                         <img src="../../assets/img/Vector2.png" class="rellax detalhe4 no-print" data-rellax-speed="5"
                             data-rellax-zindex="10" alt="">
-                    </div>
-                </div>
+                    </div> -->
 
-                <div style="position: relative; z-index: 1">
+                <!-- <div style="position: relative; z-index: 1">
                     <img src="../../assets/img/vetor-bg-33.png" class="rellax detalhe5 no-print" data-rellax-speed="5"
                         data-rellax-zindex="10" alt="">
-                </div> 
-                <div class="container-fluid parallax florestal">
-                    </div>
-                <div class="container">
+                </div>  -->
+                <!-- <div class="container-fluid parallax florestal">
+                    </div> -->
                     <br><br>
                    
                    
 
                     <h1>Paisagem e espaço geográfico: diferentes interações e transformações</h2>
                         <br><br>
-                        <h2 class="padrao">Paisagem</h2>
+                        <h2 class="padrao" id="titulo3">Paisagem</h2>
                         <br>
                         <p>Conforme indicado anteriormente, um dos temas que serão estudados neste tópico é a <a
                                 tabindex="0" class="tooltip-padrao" data-bs-toggle="popover" data-bs-trigger="focus"
@@ -211,13 +231,10 @@
 
                         <p>Paisagem é tudo o que pode ser percebido em um lugar e em determinado momento, tudo que a vista alcança, tudo que pode ser compreendido por meio de diversas percepções, como visão, audição, tato e paladar. Assista ao vídeo a seguir e saiba mais!</p><br><br>
 
-                </div>
-                <div style="position: relative; z-index: 1">
+                <!-- <div style="position: relative; z-index: 1">
                     <img src="../../assets/img/Vector3.png" class="rellax detalhe6 no-print" data-rellax-speed="4"
                         data-rellax-zindex="10" alt="">
-                </div>
-                <div class="bloco estilo2">
-                    <div class="container">
+                </div> -->
 
                         <div class="moldura">
                             <iframe class="youtube-pl" width="560" height="315"
@@ -249,21 +266,15 @@
                                 as construções, as ruas e as estradas, os rios retificados, as plantações e as
                                 pastagens.</p>
                         </div>
-                        <br><br>
-                    </div>
 
-                    <div style="position: relative; z-index: 1">
+                    <!-- <div style="position: relative; z-index: 1">
                         <img src="../../assets/img/Vector4.png" class="rellax detalhe8 no-print" data-rellax-speed="3"
                             data-rellax-zindex="10" alt="">
-                    </div>
-                </div>
+                    </div> -->
 
-                <div class="container">
-                    <br><br><br>
                     <p>Agora observe a imagem a seguir, que retrata ambas as paisagens, com elementos naturais e
                         culturais,
                         em um mesmo ambiente. </p>
-                    <br><br>
                     <a href="../../assets/objetos/fig02.jpg" target="_blank" aria-hidden="true"
                         class="d-block text-center"><img src="../../assets/objetos/fig02.jpg" alt="" class="img-fluid"
                             aria-hidden="true"></a>
@@ -278,7 +289,6 @@
                         Fonte: Fonte: G1 (2021) 
 
                     </p>
-                    <br><br>
                     <p>Essa imagem traz dois elementos na paisagem: o natural, da floresta amazônica, e a parte humanizada, criada pelos seres humanos, como a construção da oca. Mesmo que o impacto da humanização seja baixo, é possível observar as pequenas lavouras e a construção da oca indígena. </p>
                     <p>Em alguns casos, pode haver paisagens apenas com elementos naturais, em outros, paisagens somente
                         com
@@ -301,7 +311,6 @@
                         
                         Fonte: Tarsila do Amaral (c2022) 
                     </p>
-                    <br><br>
                     <p>Essas construções refletem a forma que determinado grupo étnico transforma as paisagens, ou seja,
                         um
                         modo de vida e suas maneiras de se relacionar com o meio, incluindo a natureza, crenças,
@@ -315,20 +324,17 @@
                         diferentes outros povos.</p>
 
 
-                </div>
-                <div style="position: relative; z-index: 1">
+                <!-- <div style="position: relative; z-index: 1">
                     <img src="../../assets/img/Vector5.png" class="rellax detalhe7 no-print" data-rellax-speed="4"
                         data-rellax-zindex="10" alt="">
                 </div>
                 <div style="position: relative; z-index: 1">
                     <img src="../../assets/img/Vector4.png" class="rellax detalhe8 no-print" data-rellax-speed="3"
                         data-rellax-zindex="10" alt="">
-                </div>
-                <div class="bloco estilo1">
-                    <div class="container-fluid parallax divisao">
-                    </div>
-                    <div class="container">
-                        <h2>Espaço geográfico</h2>
+                </div> -->
+                    <!-- <div class="container-fluid parallax divisao">
+                    </div> -->
+                        <h2 id="titulo3">Espaço geográfico</h2>
                         <p>O espaço geográfico é outro tema muito importante, pois se refere a uma associação entre a
                             sociedade e a paisagem (estudada no tópico anterior): em que a paisagem é a parte material,
                             a
@@ -353,13 +359,10 @@
                             geográfico, pois se relacionam com o meio, de diferentes formas, sendo algumas extremamente
                             prejudiciais ao meio ambiente, outras não, conforme a charge a seguir.</p>
 
-                    </div>
-                    <div class="position: relative; z-index: 1"> <img src="../../assets/img/vector.png"
-                            class="rellax detalhe1 no-print" data-rellax-speed="1" data-rellax-zindex="10" alt=""></div>
+                    <!-- <div class="position: relative; z-index: 1"> <img src="../../assets/img/vector.png"
+                            class="rellax detalhe1 no-print" data-rellax-speed="1" data-rellax-zindex="10" alt=""></div> -->
 
-                </div>
 
-                <div class="container">
 
                     <a href="../../assets/objetos/fig04.jpg" target="_blank" aria-hidden="true"
                         class="d-block text-center"><img src="../../assets/objetos/fig04.jpg" alt="" class="img-fluid"
@@ -373,7 +376,6 @@
 
                     </p>
 
-                    <br><br>
                     <p>Conforme a charge mostra, tradicionalmente, os indígenas se relacionam com a natureza de uma
                         forma
                         menos impactante, pois se reconhecem como parte do mesmo sistema do ambiente onde vivem,
@@ -391,20 +393,16 @@
                         outras
                         mais atuais, outras ainda em processo de construção, revelando na paisagem essa dinâmica de
                         transformação do espaço geográfico ao longo do tempo.</p>
-                    <br><br>
-                </div>
-                <div style="position: relative; z-index: 1">
+                <!-- <div style="position: relative; z-index: 1">
                     <img src="../../assets/img/vetor5.png" class="rellax detalhe3 no-print" data-rellax-speed="1"
                         data-rellax-zindex="10" alt="">
-                </div>
-                <div class="position: relative; z-index: 1"><img src="../../assets/img/vetor-bg-topo.png"
-                        class="rellax detalhe2 no-print" data-rellax-speed="1" data-rellax-zindex="10" alt=""></div>
-                <div class="bloco estilo2">
-                    <div style="position: relative; z-index: 1">
+                </div> -->
+                <!-- <div class="position: relative; z-index: 1"><img src="../../assets/img/vetor-bg-topo.png"
+                        class="rellax detalhe2 no-print" data-rellax-speed="1" data-rellax-zindex="10" alt=""></div> -->
+                    <!-- <div style="position: relative; z-index: 1">
                         <img src="../../assets/img/Vector3.png" class="rellax detalhe6 no-print" data-rellax-speed="2"
                             data-rellax-zindex="10" alt="">
-                    </div>
-                    <div class="container"><br><br>
+                    </div> -->
                         <h3>Coordenadas geográficas, localização e GPS (Sistema de Posicionamento Global)</h3>
                         <p>Todos os lugares retratados nos tópicos anteriores, como as paisagens e o espaço geográfico, podem ser localizados de uma forma exata. Veja mais detalhes no globo a seguir:</p>
                         <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo </p>
@@ -449,7 +447,6 @@
 
                             </div>
                         </div>
-                        <br><br><br><br>
                         <div class="visually-hidden print">
                             <h3>Meridianos</h3>
                             <p>Os meridianos são linhas imaginárias, semicírculos, traçados de polo a polo, tendo como
@@ -489,20 +486,17 @@
                             Menkragnoti, 8°S de latitude e 54° oeste, abrangendo, em sua totalidade, parte do estado do
                             Mato
                             Grosso e parte do estado do Pará.</p><br><br><br> -->
-                    </div>
-
-                </div>
 
 
-                <div style="position: relative; z-index: 1">
+
+                <!-- <div style="position: relative; z-index: 1">
                     <img src="../../assets/img/Vector5.png" class="rellax detalhe7 no-print" data-rellax-speed="1"
                         data-rellax-zindex="10" alt="">
                 </div>
                 <div style="position: relative; z-index: 1">
                     <img src="../../assets/img/Vector4.png" class="rellax detalhe8 no-print" data-rellax-speed="1"
                         data-rellax-zindex="10" alt="">
-                </div>
-                <div class="container">
+                </div> -->
                     <p><strong>Clique</strong> ou <strong>toque</strong> para ampliar a imagem.</p>
                     <br><br>
                     <a href="../../assets/objetos/fig6-01.png" target="_blank" aria-hidden="true"
@@ -552,7 +546,6 @@
                     <p>Por meio desse sistema de localização também é possível indicar e localizar lugares que sofreram
                         desmatamentos e queimadas, além de delimitar espaços, fronteiras e territórios, como os
                         territórios indígenas. </p>
-                    <br><br>
                 </div>
 <!-- 
                 <div class="text-center">
@@ -561,14 +554,15 @@
                             territoriais, disputas entre os povos brasileiros: territórios indígenas e
                             quilombolas</strong></a>
                 </div> -->
+                </div>
             </div>
             <!-- Fim pagina 2 -->
             
             <!-- pagina 3 -->
-            <div class="pagina">
-                
+            <div class="pagina estilo1">
+<!--                 
                 <img src="../../assets/img/vector.png" class="rellax detalhe1 no-print" data-rellax-speed="3" data-rellax-zindex="10" alt="" style="z-index: 1">
-                <img src="../../assets/img/vetor-bg-topo.png" class="rellax detalhe2 no-print" data-rellax-speed="5" data-rellax-zindex="10" alt="" style="z-index: 1">
+                <img src="../../assets/img/vetor-bg-topo.png" class="rellax detalhe2 no-print" data-rellax-speed="5" data-rellax-zindex="10" alt="" style="z-index: 1"> -->
         
              <div class="container">
                  
@@ -580,7 +574,7 @@
                      delimitações, formas de ocupação e legislação: os territórios indígenas e os territórios
                      quilombolas.</p>
                  <br><br>
-                 <h2 class="padrao">Território</h2><br>
+                 <h2 class="padrao" id="titulo5">Território</h2><br>
                  <p>Ao falar da palavra “território”, é possível referir-se a diversos aspectos de uma área do espaço
                      e
                      suas relações de poder, posse ou propriedade, apropriação ou delimitação por fronteiras. Para o
@@ -600,12 +594,7 @@
                      dos modos de vida desses povos, em que o governo federal deve ofertar e assegurar esse direito a
                      eles. </p>
 
-             </div>
 
-             <div class="bloco estilo1">
-                 <div class="container-fluid parallax">
-                 </div>
-                 <div class="container">
                      <p>A partir de agora, descubra como são definidos, quais as leis que os amparam, onde estão
                          localizados e como esses territórios se caracterizam.</p>
                      <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo</p>
@@ -656,8 +645,8 @@
 
                     <br><br>
                     <p>Atualmente, no Brasil, conforme dados do último censo demográfico, realizado em 2022 pelo Instituto Brasileiro de Geografia e Estatística (IBGE), os povos originários ocupam os seguintes percentuais do território brasileiro, mostrados na imagem:  </p>
-                    <a href="../../assets/objetos/fig04.jpg" target="_blank" aria-hidden="true"
-                                            class="d-block text-center"><img src="../../assets/objetos/fig04.jpg" alt="A imagem mostra o percentual habitacional da população indígena no Brasil, dividido por grandes regiões e unidades de federação. O total da população indígena atualmente é de 1.693.535 (0,83% do total da população residente), do qual 44,48% (753.357) estão localizados na região Norte, 31,22% (528.800) estão localizados na região Nordeste, 11,80% (199.912) estão localizados na região Centro-Oeste, 7,28% (123.369) estão localizados na região Sudeste e 5,20% (88.097) estão localizados na região Sul. A imagem mostra especificamente a população indígena em cada estado brasileiro da federação, com os seguintes dados populacionais: Amazonas 490.854, Bahia 229.103, Mato Grosso do Sul 116.346, Pernambuco 106.634, Roraima 97.320, Pará 80.974, Mato Grosso 58.231, Maranhão 57.214, Ceará 56.353, São Paulo 55.295, Minas Gerais 36.699, Rio Grande do Sul 36.096, Acre 31.699, Paraná 30.460, Paraíba 30.140, Alagoas 25.725, Santa Catarina 21.541, Rondônia 21.153, Tocantins 20.023, Goiás 19.522, Rio de Janeiro 16.964, Espírito Santo 14.411, Rio Grande do Norte 11.725, Amapá 11.334, Piauí 7.198, Distrito Federal 5.813 e Sergipe 4.708. " class="img-fluid"
+                    <a href="../../img/figura7.jpg" target="_blank" aria-hidden="true"
+                                            class="d-block text-center"><img src="../../img/figura7.jpg" alt="A imagem mostra o percentual habitacional da população indígena no Brasil, dividido por grandes regiões e unidades de federação. O total da população indígena atualmente é de 1.693.535 (0,83% do total da população residente), do qual 44,48% (753.357) estão localizados na região Norte, 31,22% (528.800) estão localizados na região Nordeste, 11,80% (199.912) estão localizados na região Centro-Oeste, 7,28% (123.369) estão localizados na região Sudeste e 5,20% (88.097) estão localizados na região Sul. A imagem mostra especificamente a população indígena em cada estado brasileiro da federação, com os seguintes dados populacionais: Amazonas 490.854, Bahia 229.103, Mato Grosso do Sul 116.346, Pernambuco 106.634, Roraima 97.320, Pará 80.974, Mato Grosso 58.231, Maranhão 57.214, Ceará 56.353, São Paulo 55.295, Minas Gerais 36.699, Rio Grande do Sul 36.096, Acre 31.699, Paraná 30.460, Paraíba 30.140, Alagoas 25.725, Santa Catarina 21.541, Rondônia 21.153, Tocantins 20.023, Goiás 19.522, Rio de Janeiro 16.964, Espírito Santo 14.411, Rio Grande do Norte 11.725, Amapá 11.334, Piauí 7.198, Distrito Federal 5.813 e Sergipe 4.708. " class="img-fluid"
                                                 aria-hidden="true"></a>
                                         <div class="visually-hidden-focusable">
                                         </div>
@@ -820,7 +809,7 @@
                     <a href="../../assets/objetos/fig12.jpg" target="_blank" aria-hidden="true"
                         class="d-block text-center"><img src="../../assets/objetos/fig12.jpg" alt=""
                             class="img-fluid" aria-hidden="true"></a>
-                    <p>Imagem: A imagem mostra o mapa do Brasil e os demais
+                    <p class="visually-hidden no-print"> A imagem mostra o mapa do Brasil e os demais
                         países da América Latina. No território brasileiro, estão destacadas em verde as
                         terras indígenas demarcadas, com maior incidência nos estados do Amazonas, Pará,
                         Roraima, Mato Grosso e Rondônia.
@@ -931,7 +920,7 @@
                     <a href="../../assets/objetos/fig14.jpg" target="_blank" aria-hidden="true"
                         class="d-block text-center"><img src="../../assets/objetos/fig14.jpg" alt=""
                             class="img-fluid" aria-hidden="true"></a>
-                    <p>Imagem: Fotografia de uma roda de mulheres negras,
+                    <p class="no-print visually-hidden">Imagem: Fotografia de uma roda de mulheres negras,
                         com saias coloridas e rodadas. Ao centro, uma das mulheres sorri, de turbante
                         verde, blusa branca e saia em tons terrosos.
                     </p>
@@ -1057,12 +1046,10 @@
                                 de Palmares).</p>
 
 
-                    <div class="icone">
+                    <div class="icone saiba-mais">
                         <p>Você pode fazer uma visita virtual ao Parque Memorial Quilombo dos
                             Palmares agora mesmo acessando seu <em>site</em>.</p>
                     </div>
-
-                    <br><br>
 
                     <a href="../../assets/objetos/fig17.jpg" target="_blank" aria-hidden="true"
                         class="d-block text-center"><img src="../../assets/objetos/fig17.jpg" alt=""
@@ -1114,6 +1101,35 @@
                         <li><i class="fas fa-check    "></i> <em>Site</em> do Conaq</li>
                     </ul>
                     <h1>ODA V OU F</h1>
+                    
+           
+                    
+                <!-- <div class="esquemaDaBru no-print">
+                    <div class="enunciado" tabindex="0">
+                      <p>
+                        1. Observe as ofertas de certo supermercado:
+                      </p>
+    
+                    </div>
+                    <div class="row">
+                            <button class="alt-e btn-sesc" title="alternativa: ">
+                              a) R$ 26,59
+                            </button>
+                        
+                            <button class="alt-c btn-sesc" title="alternativa: ">
+                              b) R$ 16,07
+                            </button>
+                    </div>
+                    <div class="feedbacks">
+                      <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                          class="fas fa-check"></i>Resposta correta! Parabéns, você acertou o valor da quantia economizada
+                        por Moisés! </p>
+                      <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                          class="fas fa-times"></i>Resposta incorreta! O valor não corresponde à quantia economizada por
+                        Moisés! </p>
+                    </div>
+                  </div> -->
+            
 
 
 
@@ -1121,25 +1137,16 @@
 
 
                  </div>
-             </div>
-             <!-- <div class="container">
-                 <div class="text-center">
-                     <a href="../1_fenomenosocial/index.html" class="bto-proximo no-print voltar"><i
-                             class="fas fa-arrow-left    "></i> Voltar</a>
-                     <a href="../3_juventude/index.html" class="bto-proximo no-print">Próximo: <strong>As fronteiras
-                             urbanas, fronteiras culturais e a juventude</strong></a>
-                 </div>
-
-             </div> -->
             </div>
 
 
             <!-- Fim pagina 4 -->
             
-            <div class="pagina">
-                <img src="../../assets/img/vector.png" class="rellax detalhe1 no-print" data-rellax-speed="3" data-rellax-zindex="10" alt="" style="z-index: 1">
+            <div class="pagina estilo2">
+                <!-- <img src="../../assets/img/vector.png" class="rellax detalhe1 no-print" data-rellax-speed="3" data-rellax-zindex="10" alt="" style="z-index: 1">
                    <img src="../../assets/img/vetor-bg-topo.png" class="rellax detalhe2 no-print" data-rellax-speed="5" data-rellax-zindex="10" alt="" style="z-index: 1">
-                <div class="container pb-80">
+                 -->
+                   <div class="container pb-80">
                     <p>Estudante, neste módulo, você conhecerá mais sobre as fronteiras urbanas e as fronteiras
                         culturais e como as juventudes vivem essas fronteiras no momento histórico atual. Anteriormente,
                         foi visto que os territórios têm relações de poder, fronteiras, utilização de espaços e suas
@@ -1156,11 +1163,8 @@
                         desconhecendo áreas mais afastadas e quase não se veem como pertencentes ao restante da
                         população agrícola. Mas é possível se sentir parte de todos os espaços de uma cidade? A partir
                         dessas reflexões, pode-se identificar as fronteiras simbólicas. </p>
-                </div>
 
                
-                    <div class="container-fluid parallax"></div>
-                    <div class="container">
                         <p>Um segundo exemplo para essa reflexão são os territórios indígenas brasileiros. Esses povos
                             têm conceitos muito perceptíveis, como, por exemplo, suas relações de poder estabelecidas
                             entre eles e sobre o espaço que ocupam, com suas marcas culturais e fronteiras, delimitadas,
@@ -1186,7 +1190,7 @@
                                     <img src="../../assets/objetos/bt-fronteiras-urbanas.png" class="img-fluid" alt="">
                                 </div>
                                 <span class="btn-label">
-                                    <span class="btn-label-texto">Fronteiras urbanas</span>
+                                    <span class="btn-label-texto" id="titulo6">Fronteiras urbanas</span>
                                 </span>
                             </button>
                         </div>
@@ -1197,7 +1201,7 @@
                                         alt="">
                                 </div>
                                 <span class="btn-label">
-                                    <span class="btn-label-texto">Fronteiras culturais</span>
+                                    <span class="btn-label-texto" id="titulo7">Fronteiras culturais</span>
                                 </span>
                             </button>
                         </div>
@@ -1381,16 +1385,16 @@
             
             <!-- pagina 5 -->
             
-            <div class="pb-4 pagina">
-                <img src="../../assets/img/vector.png" class="rellax detalhe1 no-print" data-rellax-speed="3"
+            <div class="pagina estilo1">
+                <!-- <img src="../../assets/img/vector.png" class="rellax detalhe1 no-print" data-rellax-speed="3"
                     data-rellax-zindex="10" alt="" style="z-index: 1">
                 <img src="../../assets/img/vetor-bg-topo.png" class="rellax detalhe2 no-print" data-rellax-speed="1"
-                    data-rellax-zindex="10" alt="" style="z-index: 1">
+                    data-rellax-zindex="10" alt="" style="z-index: 1"> -->
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             
-                            <p>Olá! Você chegou à parte que trata das <strong>questões ambientais.</strong>
+                            <p id="titulo8">Olá! Você chegou à parte que trata das <strong>questões ambientais.</strong>
                                 Provavelmente, você já acompanhou ou presenciou algum caso de problema ambiental, seja
                                 no mundo ou em sua própria cidade. Ao se falar sobre questões ambientais, fala-se sobre
                                 os efeitos no meio ambiente, geralmente, sobre a <strong>degradação ambiental</strong>,
@@ -1403,24 +1407,20 @@
                         </div>
                         <div class="col-lg-6">
                             <figure>
-                                <img src="./04/img/ilustra-poluicao.png" alt="">
+                                <img src="../4_questoes_ambientais/04/img/ilustra-poluicao.png" alt="">
                             </figure>
                         </div>
 
 
                     </div>
-                </div>
-                <br><br><br>
-                <div class="bloco estilo1">
-                    <div class="container">
                         <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo </p>
                         <div class="timeline no-print">
                             <img data-bs-toggle="modal" data-bs-target="#modal-timeline-1"
-                                class="timeline__img timeline__img--primeira" src="./04/img/timeline-img01.png" alt="">
+                                class="timeline__img timeline__img--primeira" src="../4_questoes_ambientais/04/img/timeline-img01.png" alt="">
                             <img data-bs-toggle="modal" data-bs-target="#modal-timeline-2"
-                                class="timeline__img timeline__img--segunda" src="./04/img/timeline-img02.png" alt="">
+                                class="timeline__img timeline__img--segunda" src="../4_questoes_ambientais/04/img/timeline-img02.png" alt="">
                             <img data-bs-toggle="modal" data-bs-target="#modal-timeline-3"
-                                class="timeline__img timeline__img--terceira" src="./04/img/timeline-img03.png" alt="">
+                                class="timeline__img timeline__img--terceira" src="../4_questoes_ambientais/04/img/timeline-img03.png" alt="">
                             <p class="timeline__periodo timeline__periodo--primeiro">Metade do séc. XVIII</p>
                             <p class="timeline__periodo timeline__periodo--segundo">Metade do séc. XIX <br>até início do
                                 séc. XX</p>
@@ -1430,7 +1430,7 @@
                 <div class="visually-hidden print">
                     <h3>Metade do séc. XVIII</h3>
                     <figure class="text-center">
-                        <img src="./04/img/timeline-img01-ilustra.png" alt="" class="d-inline-block">
+                        <img src="../4_questoes_ambientais/04/img/timeline-img01-ilustra.png" alt="" class="d-inline-block">
                     </figure>
                     <p>Na primeira fase da Revolução Industrial, houve a substituição da produção artesanal (manufatura)
                         pela indústria (maquinofatura). Por exemplo, foi com a utilização do carvão como fonte de
@@ -1438,7 +1438,7 @@
 
                     <h4>Metade do séc. XIX até início do séc. XX</h4>
                     <figure class="text-center">
-                        <img src="./04/img/timeline-img02-ilustra.png" alt="" class="d-inline-block">
+                        <img src="../4_questoes_ambientais/04/img/timeline-img02-ilustra.png" alt="" class="d-inline-block">
                     </figure>
                     <p>A segunda fase da Revolução Industrial é marcada na metade do século XIX até início do século XX.
                         Nesse período, a industrialização ultrapassou as fronteiras da Europa Ocidental, invadindo
@@ -1450,7 +1450,7 @@
 
                     <h3>Metade do séc. XX</h3>
                     <figure class="text-center">
-                        <img src="./04/img/timeline-img03-ilustra.png" alt="" class="d-inline-block">
+                        <img src="../4_questoes_ambientais/04/img/timeline-img03-ilustra.png" alt="" class="d-inline-block">
                     </figure>
                     <p>A terceira fase da Revolução Industrial, que também é conhecida como Revolução
                         Técnico-científica, teve seu início na metade do século XX, após a Segunda Guerra Mundial. Nessa
@@ -1467,8 +1467,6 @@
                         <p>É possível citar aqui a <strong>indústria bélica</strong>, que oficialmente surgiu no Brasil,
                             no Rio de Janeiro, em 1808, e se destina à produção de armas, munições, equipamentos e
                             tecnologia militar, atendendo principalmente às forças armadas. </p>
-                    </div>
-                </div>
 
                 <div class="modals no-print" aria-hidden="true">
                     <!-- modal -->
@@ -1484,7 +1482,7 @@
                                 <div class="modal-body">
                                     <div class="row">
                                         <figure>
-                                            <img src="./04/img/timeline-img01-ilustra.png" alt="">
+                                            <img src="../4_questoes_ambientais/04/img/timeline-img01-ilustra.png" alt="">
                                         </figure>
                                         <p>Na primeira fase da Revolução Industrial, houve a substituição da produção
                                             artesanal (manufatura) pela indústria (maquinofatura). Por exemplo, foi com
@@ -1514,7 +1512,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <figure>
-                                        <img src="./04/img/timeline-img02-ilustra.png" alt="">
+                                        <img src="../4_questoes_ambientais/04/img/timeline-img02-ilustra.png" alt="">
                                     </figure>
                                     <p>A segunda fase da Revolução Industrial é marcada na metade do século XIX até
                                         início do século XX. Nesse período, a industrialização ultrapassou as fronteiras
@@ -1544,7 +1542,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <figure>
-                                        <img src="./04/img/timeline-img03-ilustra.png" alt="">
+                                        <img src="../4_questoes_ambientais/04/img/timeline-img03-ilustra.png" alt="">
                                     </figure>
                                     <p>A terceira fase da Revolução Industrial, que também é conhecida como Revolução
                                         Técnico-científica, teve seu início na metade do século XX, após a Segunda
@@ -1565,22 +1563,7 @@
 
               
 
-                <div style="position: relative; z-index: 1;">
-                    <img src="../../assets/img/vetor5.png" class="rellax detalhe3 no-print" data-rellax-speed="5"
-                        data-rellax-zindex="10" alt="">
-                </div>
-
-                <div style="position: relative; z-index: 1;">
-                    <img src="../../assets/img/Vector2.png" class="rellax detalhe4 no-print" data-rellax-speed="1"
-                        data-rellax-zindex="10" alt="">
-                </div>
-
-                <div style="position: relative; z-index: 1;">
-                    <img src="../../assets/img/vetor-bg-33.png" class="rellax detalhe5 no-print" data-rellax-speed="3"
-                        data-rellax-zindex="10" alt="">
-                </div>
-
-                <div class="container py-80">
+           
                     <p>Talvez você esteja se perguntando: mas em que a indústria bélica afeta a natureza? Como todo
                         produto, antes de chegar ao consumidor, é preciso realizar testes para confirmar sua
                         efetividade. Por isso, armas, mísseis, minas e torpedos precisam ser testados, o que leva a
@@ -1615,17 +1598,8 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-                <!-- bloco branco -->
 
 
-                <div class="bloco estilo2 py-80">
-
-
-                    <div class="container-fluid parallax">
-                    </div>
-
-                    <div class="container">
                         <p>Esses são alguns dos muitos problemas ambientais que o mundo enfrenta. Tais problemas
                             desestruturam o <a tabindex="0" data-bs-trigger="focus"
                                 data-bs-original-title="" title="" role="button" class="tooltiper"
@@ -1643,16 +1617,7 @@
                             desabrigados vários grupos e povos. Se você quiser saber mais a fundo sobre essa notícia,
                             basta acessar o site do G1 ou pesquisar pela reportagem, em vídeo, no <em>site</em> da
                             Globo. </p>
-                        
-                    </div>
-                </div>
 
-                <div style="position: relative; z-index: 1;">
-                    <img src="../../assets/img/Vector3.png" class="rellax detalhe6 no-print" data-rellax-speed="4"
-                        data-rellax-zindex="10" alt="">
-                </div>
-
-                <div class="container py-80">
                     <p>Agora você já sabe que esses problemas ambientais são frutos da atividade humana sobre o meio
                         ambiente e que o ser humano acaba sendo o protagonista da aceleração desses impactos ambientais.
                         Mas de que forma o ser humano causa esse efeito no meio ambiente? A forma de causar esse efeito
@@ -1665,17 +1630,17 @@
                     <div class="row no-print" aria-hidden="true">
                         <div class="col-md-4">
                             <figure>
-                                <img src="./04/img/icone-desperdicio-agua.png" alt="">
+                                <img src="../4_questoes_ambientais/04/img/icone-desperdicio-agua.png" alt="">
                             </figure>
                         </div>
                         <div class="col-md-4">
                             <figure>
-                                <img src="./04/img/icone-desperdicio-energia.png" alt="">
+                                <img src="../4_questoes_ambientais/04/img/icone-desperdicio-energia.png" alt="">
                             </figure>
                         </div>
                         <div class="col-md-4">
                             <figure>
-                                <img src="./04/img/icone-descarte-lixo.png" alt="">
+                                <img src="../4_questoes_ambientais/04/img/icone-descarte-lixo.png" alt="">
                             </figure>
                         </div>
                     </div>
@@ -1703,13 +1668,10 @@
                         <strong>Declaração Universal dos Direitos da Água</strong>, para que, por meio de medidas e
                         sugestões, a população se conscientize sobre o cuidado e a importância das questões envolvendo o
                         uso da água. </p>
-                </div>
 
-                <div class="bloco estilo3">
-                    <div class="container pt-80">
                         <p>Observe, a seguir, a tirinha do personagem Armandinho. </p><br><br>
                         <figure>
-                            <a href="./04/img/fig20.jpg" target="_blank"><img src="./04/img/fig20.jpg" alt=""></a>
+                            <a href="../4_questoes_ambientais/04/img/fig20.jpg" target="_blank"><img src="../4_questoes_ambientais/04/img/fig20.jpg" alt=""></a>
                             <figcaption>
                                 Figura 20 – Água é um bem finito <br>
                                 Fonte: Rossi (2023)
@@ -1742,24 +1704,9 @@
                                 data-bs-content="O nome mata ciliar vem da palavra cílios, porque assim como os cílios protegem os olhos, a mata ciliar protege os rios e lagos.">mata ciliar</a>
                             para a proteção dos rios e nascentes, porque a água contida nesses espaços é própria para o
                             consumo humano.</p>
-                            
-                    </div>
-                </div>
+                     
 
-                <div style="position: relative; z-index: 1;">
-                    <img src="../../assets/img/Vector5.png" class="rellax detalhe7 no-print" data-rellax-speed="1"
-                        data-rellax-zindex="10" alt="">
-                </div>
 
-                <div style="position: relative; z-index: 1;">
-                    <img src="../../assets/img/Vector4.png" class="rellax detalhe8 no-print" data-rellax-speed="3"
-                        data-rellax-zindex="10" alt="">
-                </div>
-
-                <div class="container-fluid parallax agua">
-                </div>
-
-                <div class="container">
                     <p class="caixa icone pergunta">
                         Mas o que a mata ciliar tem a ver com a preservação da água potável?
                     </p>
@@ -1771,7 +1718,7 @@
                     <p>Embora o planeta tenha 70% de água, nem toda essa água é própria para o consumo humano. A
                         porcentagem total de água disponível é composta por: </p>
                     <figure>
-                        <img src="./04/img/grafico-agua.png" alt="">
+                        <img src="../4_questoes_ambientais/04/img/grafico-agua.png" alt="">
                     </figure>
                     <div class="visually-hidden no-print">
                         <p>97% distribuída em mares e oceanos (água salgada) </p>
@@ -1782,12 +1729,7 @@
                     <p>Você sabe onde está localizado esse 1% de água disponível para consumo? É só você se lembrar da
                         mata ciliar comentada anteriormente, ela é importante para proteger os lagos e rios, onde fica
                         esse 1% de água própria para o consumo. </p>
-                        <br><br><br>
-                </div>
 
-                <div class="bloco estilo3">
-                    <div class="container">
-                        <br><br><br>
                         <p>Além do desperdício da água, há também outro fator que agrava sua escassez, a poluição. A
                             <strong>poluição da água</strong> também é causada pela atividade humana. A seguir, veja algumas dessas
                             atividades humanas que poluem a água: </p>
@@ -1832,11 +1774,7 @@
                                 devido ao seu consumo e modificação do solo e do ciclo da água. </p>
                                 
                         </div>
-                        <br><br>
-                    </div>
-                </div>
 
-                <div class="container">
                     <div class="caixa icone atencao">
                         <p>O ser humano polui não só a água com ações rotineiras do dia a dia como também o ar, que é
                             poluído pelo homem e pelas indústrias e monoculturas. </p>
@@ -1851,12 +1789,12 @@
                     <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> nas setas para visualizar o conteúdo </p>
                     <br><br>
                     <div class="no-print">
-                    <div id="carouselId" class="carousel slide sesc d-none d-md-block" data-bs-ride="" aria-hidden="true">
+                        <div id="carouselId" class="carousel slide sesc d-none d-md-block" data-bs-ride="" aria-hidden="true">
 
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <figure class="no-print">
-                                    <img src="./04/img/slide01.png" class="img-fluid" alt="First slide">
+                                    <img src="../4_questoes_ambientais/04/img/slide01.png" class="img-fluid" alt="First slide">
                                     <figcaption>
                                         Figura 21 – Poluição atmosférica <br>
                                         Fonte: Vasconcelos (c2022) 
@@ -1865,7 +1803,7 @@
                             </div>
                             <div class="carousel-item">
                                 <figure class="no-print">
-                                    <img src="./04/img/slide02.png" class="img-fluid" alt="Second slide">
+                                    <img src="../4_questoes_ambientais/04/img/slide02.png" class="img-fluid" alt="Second slide">
                                     <figcaption>
                                         Figura 22 – O vulcão como fonte natural de poluição <br>
                                         Fonte: Gonçalves (2021) 
@@ -1887,11 +1825,11 @@
                             <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
                             <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
                         </ol>
+                        </div>
                     </div>
-                </div><br><br>
                     <div class="d-block d-sm-block d-md-none no-print">
                         <figure>
-                            <a href="./04/img/slide01.png" target="_blank"><img src="./04/img/slide01.png" class="img-fluid" alt="First slide"></a>
+                            <a href="../4_questoes_ambientais/04/img/slide01.png" target="_blank"><img src="../4_questoes_ambientais/04/img/slide01.png" class="img-fluid" alt="First slide"></a>
                             <figcaption>
                                 Figura 21 – Poluição atmosférica <br>
                                 Fonte: &lt;http://www.logicambiental.com.br/poluicao-atmosferica/>. Acesso em:
@@ -1899,7 +1837,7 @@
                             </figcaption>
                         </figure><br>
                         <figure>
-                            <a href="./04/img/slide02.png" target="_blank"><img src="./04/img/slide02.png" class="img-fluid" alt="Second slide"></a>
+                            <a href="../4_questoes_ambientais/04/img/slide02.png" target="_blank"><img src="../4_questoes_ambientais/04/img/slide02.png" class="img-fluid" alt="Second slide"></a>
                             <figcaption>
                                 Figura 22 – O vulcão como fonte natural de poluição <br>
                                 Fonte:
@@ -1910,7 +1848,7 @@
                     </div>
                     <div class="visually-hidden print">
                         <figure>
-                            <img src="./04/img/slide02.png" class="img-fluid" alt="First slide">
+                            <img src="../4_questoes_ambientais/04/img/slide02.png" class="img-fluid" alt="First slide">
                             <figcaption>
                                 Figura 21 – Poluição atmosférica <br>
                                 Fonte: &lt;http://www.logicambiental.com.br/poluicao-atmosferica/>. Acesso em: 10 mar.
@@ -1920,7 +1858,7 @@
                         <p class="visually-hidden">Fotografia de uma estrada com alguns carros e caminhões. Ao fundo, há alguns
                             prédios e indústrias, com grandes nuvens de fumaça cinza.</p>
                         <figure>
-                            <img src="./04/img/slide02.png" class="img-fluid" alt="Second slide">
+                            <img src="../4_questoes_ambientais/04/img/slide02.png" class="img-fluid" alt="Second slide">
                             <figcaption>
                                 Figura 22 – O vulcão como fonte natural de poluição <br>
                                 Fonte:
@@ -1954,9 +1892,9 @@
             
             <div class="pagina">
 
-                <div class="bloco estilo2 py-80">
+                <div class="bloco estilo2">
                     <div class="container">
-                        <h3>Ética ambiental</h3>
+                        <h3 id="titulo9">Ética ambiental</h3>
                         <p>Você já ouviu falar em ética ambiental? Sabe o que significa? Independentemente de já ter
                             ouvido falar ou não sobre seu significado, esse é um termo que está presente não só nas
                             teorias, mas vive nas ações práticas. A ética ambiental é um conceito filosófico, criado na
@@ -2050,16 +1988,14 @@
                             que a ampliação do conceito de ética, já que estende o comportamento do ser humano para além
                             de si mesmo no meio social e busca estabelecer essa relação com a natureza. </p>
                             <br><br><br>
-                    </div>
-                </div>
-
-                <div class="container py-80">
+                    
+                
                     <p>A imagem abaixo fará você refletir sobre a importância de se estabelecer uma ética ambiental
                         devido a forma como o ser humano se relaciona com o meio em que vive, onde acaba esquecendo de
                         uma parte essencial para sua sobrevivência. </p>
                         <br><br>
                     <figure>
-                        <img src="./04/img/fig23.jpg" alt="">
+                        <img src="../4_questoes_ambientais/04/img/fig23.jpg" alt="">
                         <figcaption>
                             Figura 23 – Ego x Eco <br>
 
@@ -2085,17 +2021,16 @@ Fonte: Casa de Notícias (2021)
                             92</strong>, também chamada de Eco-92, a primeira conferência das Nações Unidas sobre o Meio
                         Ambiente e Desenvolvimento, realizada no Rio de Janeiro, em 1992, que a primeira versão dessa
                         carta foi elaborada. </p>
-                </div>
+                    
+                
 
-                <div class="bloco estilo3">
-                    <div class="container pt-80">
                         <p>A Carta da Terra é uma declaração que contém princípios e valores éticos que visam à
                             construção de uma sociedade mais pacífica, sustentável e justa. Isso significa que se busca
                             uma sociedade que atue em conjunto, ou seja, que todas as pessoas sejam responsáveis por
                             manter a paz, o equilíbrio ambiental, o respeito e a igualdade. Essa carta apresenta 16
                             princípios básicos, que estão divididos e distribuídos em 4 tópicos, são eles: </p>
                         <figure>
-                            <img src="./04/img/carta-da-terra.png" alt="">
+                            <img src="../4_questoes_ambientais/04/img/carta-da-terra.png" alt="">
                         </figure>
                         <div class="visually-hidden">
                             <p>1. Respeitar e cuidar da comunidade da vida</p>
@@ -2110,11 +2045,7 @@ Fonte: Casa de Notícias (2021)
                             vida em sociedade e do planeta. Por isso, alertas e medidas são tomados para que a natureza
                             seja preservada. Para conhecer e entender melhor sobre a conservação do meio ambiente, a
                             seguir serão abordadas as <strong>reservas naturais</strong>. </p>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <h3>Reservas naturais</h3>
+                    <h3 id="titulo11">Reservas naturais</h3>
                     <p>As reservas naturais são áreas protegidas pelo governo, onde se deve preservar e cuidar da flora,
                         da fauna e da vida selvagem. Existem muitas reservas naturais espalhadas pelo mundo e cada país
                         tem um método de classificação dessas reservas. Por exemplo, no Brasil, são chamadas de
@@ -2133,10 +2064,7 @@ Fonte: Casa de Notícias (2021)
                             seu país. É importante saber que as Unidades de Conservação fazem parte do patrimônio
                             cultural e natural do Brasil, sendo espaços protegidos por lei. </p>
                     </div>
-                </div>
 
-                <div class="bloco estilo1">
-                    <div class="container">
                         <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo </p>
                         <!-- <div class="visually-hidden no-print">
                             <p>Com a Lei <strong>nº 9.985</strong>, de 18 de julho de 2000, foi criado o órgão
@@ -2192,56 +2120,15 @@ Fonte: Casa de Notícias (2021)
                             alguém simplesmente manifestando uma posição ou comentário. O conceito de sustentabilidade
                             está dividido em três princípios, formando um tripé, que também é chamado de <strong>Tripé
                                 da Sustentabilidade</strong>. Os três princípios que formam esse tripé são: </p>
-                    </div>
-                </div>
 
-                <!-- modal -->
-                <div class="modal no-print" id="modal1" tabindex="-1" role="dialog"
-                    aria-labelledby="transcricao-title" aria-hidden="false">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="transcricao-title"> Lei n.º 9.985</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
-                                        class="fa fa-times"></i></button>
-                            </div>
-                            <div class="modal-body">
-                                <p>Com a Lei <strong>nº 9.985</strong>, de 18 de julho de 2000, foi criado o órgão
-                                    <strong>Sistema Nacional de Unidades de Conservação da Natureza</strong> (SNUC), que
-                                    é formado pelas unidades de conservação municipais, estaduais e federais. A lei
-                                    descreve 13 objetivos, os cinco primeiros serão listados a seguir. Se você quiser
-                                    conhecer os demais objetivos, basta acessar o site do Ministério do Meio Ambiente do
-                                    Brasil. </p>
-
-                                <ol type="I">
-                                    <li>contribuir para a manutenção da diversidade biológica e dos recursos genéticos
-                                        no território nacional e nas águas jurisdicionais</li>
-                                    <li>proteger as espécies ameaçadas de extinção no âmbito regional e nacional</li>
-                                    <li>contribuir para a preservação e a restauração da diversidade de ecossistemas
-                                        naturais</li>
-                                    <li>promover o desenvolvimento sustentável a partir dos recursos naturais</li>
-                                    <li>promover a utilização dos princípios e práticas de conservação da natureza no
-                                        processo de desenvolvimento</li>
-                                </ol>
-
-                            </div>
-                            <div class="modal-footer justify-content-center">
-                                <button type="button" class="btn-sesc up" data-bs-dismiss="modal">Fechar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- modal -->
-
-                <div class="container">
                     <div class="row no-print" aria-hidden="true">
                         <div class="col-md-4">
                             <div class="card-container">
                                 <div class="front">
-                                    <img src="./04/img/carta01.png" alt="">
+                                    <img src="../4_questoes_ambientais/04/img/carta01.png" alt="">
                                 </div>
                                 <div class="back">
-                                    <img src="./04/img/carta01-verso.png" alt="">
+                                    <img src="../4_questoes_ambientais/04/img/carta01-verso.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -2249,10 +2136,10 @@ Fonte: Casa de Notícias (2021)
                         <div class="col-md-4">
                             <div class="card-container">
                                 <div class="front">
-                                    <img src="./04/img/carta02.png" alt="">
+                                    <img src="../4_questoes_ambientais/04/img/carta02.png" alt="">
                                 </div>
                                 <div class="back">
-                                    <img src="./04/img/carta02-verso.png" alt="">
+                                    <img src="../4_questoes_ambientais/04/img/carta02-verso.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -2260,10 +2147,10 @@ Fonte: Casa de Notícias (2021)
                         <div class="col-md-4">
                             <div class="card-container">
                                 <div class="front">
-                                    <img src="./04/img/carta03.png" alt="">
+                                    <img src="../4_questoes_ambientais/04/img/carta03.png" alt="">
                                 </div>
                                 <div class="back">
-                                    <img src="./04/img/carta03-verso.png" alt="">
+                                    <img src="../4_questoes_ambientais/04/img/carta03-verso.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -2289,13 +2176,9 @@ Fonte: Casa de Notícias (2021)
                         falar de cuidado e zelo com seu lar e o meio ambiente. É preciso conscientizar-se quanto à
                         manutenção do meio ambiente, visando à conservação dos recursos naturais a longo prazo, pois,
                         como você já sabe, eles são finitos e essenciais para a vida humana. </p>
-                </div>
-
-                <div class="container-fluid parallax paisagem">
-                </div>
-
-                <div class="container">
-                    <h3>Encerramento </h3>
+                <!-- <div class="container-fluid parallax paisagem">
+                </div> -->
+                    <h3 id="titulo12">Encerramento </h3>
                     <p>Neste módulo, você aprendeu que vive em um ambiente conectado e que, se observar o planeta em que
                         vive, pode vincular pessoas, grupos, populações e culturas. Esses indivíduos podem estar
                         separados por territórios e limitados por fronteiras. </p>
@@ -2337,21 +2220,59 @@ Fonte: Casa de Notícias (2021)
                         solo o plantio de um único produto que será cultivado naquela área específica. Além
                         disso é utilizado uma grande quantia de agrotóxicos, o que provoca inúmeros impactos
                         ambientais.</p>
-                    <br><br><br>
                     <!-- <div class="text-center">
                         <a href="../3_juventude/index.html" class="bto-proximo no-print voltar"><i
                                 class="fas fa-arrow-left    "></i> Voltar</a>
                         <a href="../5_referencias/index.html" class="bto-proximo no-print">Próximo: <strong>Referências</strong></a>
                     </div> -->
-                    <br><br><br>
+                <!-- modal -->
+                <!-- modal -->
+                    </div>
+                </div>
+                
+                <div class="modal no-print" id="modal1" tabindex="-1" role="dialog"
+            aria-labelledby="transcricao-title" aria-hidden="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="transcricao-title"> Lei n.º 9.985</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                                class="fa fa-times"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Com a Lei <strong>nº 9.985</strong>, de 18 de julho de 2000, foi criado o órgão
+                            <strong>Sistema Nacional de Unidades de Conservação da Natureza</strong> (SNUC), que
+                            é formado pelas unidades de conservação municipais, estaduais e federais. A lei
+                            descreve 13 objetivos, os cinco primeiros serão listados a seguir. Se você quiser
+                            conhecer os demais objetivos, basta acessar o site do Ministério do Meio Ambiente do
+                            Brasil. </p>
+
+                        <ol type="I">
+                            <li>contribuir para a manutenção da diversidade biológica e dos recursos genéticos
+                                no território nacional e nas águas jurisdicionais</li>
+                            <li>proteger as espécies ameaçadas de extinção no âmbito regional e nacional</li>
+                            <li>contribuir para a preservação e a restauração da diversidade de ecossistemas
+                                naturais</li>
+                            <li>promover o desenvolvimento sustentável a partir dos recursos naturais</li>
+                            <li>promover a utilização dos princípios e práticas de conservação da natureza no
+                                processo de desenvolvimento</li>
+                        </ol>
+
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn-sesc up" data-bs-dismiss="modal">Fechar</button>
+                    </div>
                 </div>
             </div>
+                </div>
+            </div>
+            
             <!-- Fim pagina 6 -->
             <!-- Pagina 7 -->
 
             <div class="pagina">
                 <div class="container">
-                    <h2>Referências </h2>
+                    <h2 id="titulo13">Referências </h2>
                     <p>166.º #DESAFIO - Água, cada gota importa! <strong>Juntos no Quintal</strong>, 1.º setembro 2021. Disponível em: https://www.juntosnoquintal.com.br/2021/09/166o-desafio-agua-cuide-deste-bem/. Acesso em: 10 mar. 2022.  </p>
                     <p>A MORTE do presidente do Haiti e o neocolonialismo. <strong>Instituto Humanitas Unisinos</strong>, 12 julho 2021. Disponível em: https://www.ihu.unisinos.br/78-noticias/610998-a-morte-do-presidente-do-haiti-e-o-neocolonialismo. Acesso em: 16 mar. 2022. </p>
                     <p>A OBRA “Paisagem com touro” de <strong>Tarsila do Amaral</strong> é destaque na coleção da Casa Roberto Marinho no Rio de Janeiro. Tarsila do Amaral, c2022. Disponível em: https://tarsiladoamaral.com.br/obra-paisagem-com-touro-de-tarsila-do-amaral-e-destaque-na-colecao-da-casa-roberto-marinho-no-rio-de-janeiro/. Acesso em: 16 mar. 2022  </p>
@@ -2406,12 +2327,12 @@ Fonte: Casa de Notícias (2021)
                
 
                 <br><br><br>
-                    <div class="text-center">
+                    <!-- <div class="text-center">
                         <a href="../4_questoes_ambientais/index.html" class="bto-proximo no-print voltar"><i
                                 class="fas fa-arrow-left    "></i> Voltar</a>
                      
                     </div>
-                    <br><br><br>
+                    <br><br><br> -->
                 </div>
             </div>
             <!-- Fim pagina7 -->
@@ -2801,7 +2722,7 @@ Fonte: Casa de Notícias (2021)
         </div> -->
 
         <!-- Paginação do print-->
-        <footer class="text-center no-print container">
+        <footer class="text-center no-print container numFooter">
             <ul class="pagination">
 
             </ul>
@@ -2825,6 +2746,7 @@ Fonte: Casa de Notícias (2021)
 
     <script src="../../assets/js/audio-player.js"></script>
     <script src="../../assets/interativos/esquema_bru/esquema-bru.js"></script>
+    <script src="../../assets/interativos/objeto_associarColunas/js/associar-colunas.js"></script>
     <script src="../../assets/js/rellax.min.js"></script>
     <script src="../../assets/js/geral.js"></script>
     <script>

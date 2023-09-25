@@ -136,11 +136,11 @@ img {
   max-width: 100%;
 }
 
-.estilo1 .btn-sesc {
+/* .estilo1 .btn-sesc {
   border: 2px solid #fff;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.3);
-}
+} */
 
 .center  {
   margin-top: 30px;
@@ -160,6 +160,7 @@ img {
 }
 
 .front, .back {
+  background-color: #fff;
 	box-sizing: border-box;
 	padding: 0;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
