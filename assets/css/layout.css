@@ -192,19 +192,37 @@ a.btn-sesc{
     font-weight: bold;
 }
 .estilo1 {
-    background: url(../../img/bg_pg_1_3_5.jpg) repeat;
-    background-size: 100%;
+    background:  url(../../img/bg_pg1_3_5.svg), url(../../img/bg_pg_1_3_5.jpg);
+    background-position:
+    top 0px left 50px,
+    top 0px left 0px;
+    background-repeat: repeat-y;
+    background-size:8%,  100%;
     color: black !important;
     padding-top: 80px;
     padding-bottom:130px;
 }
 .estilo2 {
-    background: url(../../img/bg_pg_2_4_6.jpg) repeat;
-    background-size: 100%;
+    background: url(../../img/bg_pg2_4_6.svg), url(../../img/bg_pg_2_4_6.jpg) ;
+    background-position:
+    top 0px left 50px,
+    top 0px left 0px;
+    background-repeat: repeat-y;
+    background-size:8%,  100%;
     color: #fff !important;
     padding-top: 80px;
     padding-bottom:130px;
 }
+.estiloReferencias{
+    background-image: url('../../img/referencias.jpg');
+    background-size: 100%;
+
+}
+.estiloReferencias .container{ max-width: 800px; background-color: #fff; padding-top: 30px; padding-bottom: 30px;}
+.estiloReferencias h2{ color: #00767F;}
+.estilo2 .caixa.icone { color: #fff;}
+
+
 /* .bloco.estilo1::before,
 .bloco.estilo1::after{
     content:"";
@@ -298,9 +316,14 @@ a.btn-sesc{
 {
     color: white;
 } */
+
 .bloco.estilo2 p, .bloco.estilo2 h2, .bloco.estilo2 h3
 {
     color: #fff;
+}
+div.modal-body p{
+    color: #000 !important;
+
 }
 .bloco .carousel-control-next, .bloco .carousel-control-prev {
     opacity: 1;
@@ -900,16 +923,86 @@ h3, .subtitulo{
     padding-bottom: 10px;
 }
 
+/* podcast */
 
+.texto-podcast{
+    position: relative;
+    width: 460px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: #0d90a8 solid 3px;
+    z-index: 4;
+    margin: 20px auto -110px auto;
+  }
+  
+  .podcast-container {
+    width: 100%;
+    max-width: 862px;
+    height: 387px;
+    background-image: url('../../img/podcast.svg');
+    background-repeat: no-repeat;
+    margin: 50px auto 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+/* podcast */
 /* PARALLAX */
 /* .rellax {
     pointer-events: none !important;
     touch-action: none !important;
 } */
-@media only screen and (max-width: 1200px){
-    .rellax {
-        display: none;
+
+@media only screen and (max-width: 1300px){
+    .estilo1 {
+        background-position: top 0px left 20px, top 0px left 0px;
+        background-size: 4%, 100%;
     }
+    .estilo2 {
+        background-position: top 0px left 20px, top 0px left 0px;
+        background-size: 4%, 100%;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .estilo1 {
+        background: url(../../img/bg_pg_1_3_5.jpg);
+        background-position: top 0px left 0px;
+        background-size: 100%;
+    }
+    .estilo2 {
+        background: url(../../img/bg_pg_2_4_6.jpg);
+        background-position: top 0px left 0px;
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .bt-print {
+        top: 90px;
+    }
+
+}   
+@media only screen and (max-width: 600px){
+    .bt-print {
+        top: 70px;
+    }
+    
+    .notasmusicais {
+        background-size: 100px !important;
+    }
+
+}   
+@media only screen and (max-width: 500px){
+    .bt-print {
+        top: 60px;
+    }
+    
+    .notasmusicais {
+        background-size: 50px!important;
+    }
+
 }
 @media only screen and (max-width: 1600px){
     .detalhe1 {
@@ -992,10 +1085,9 @@ h3, .subtitulo{
   } */
   
   .tooltip-padrao, .tooltiper {
-    border: 2px dotted #00838d;
-    color: #00838d;
+    border-bottom: 2px dotted #fff;
+    color: #fff;
     border-radius: 3px;
-    background-color: rgba(255, 255, 255, 0.7);
     padding: 0 4px;
     transition: 300ms;
   }
@@ -1003,6 +1095,12 @@ h3, .subtitulo{
   .tooltip-padrao:hover, .tooltiper:hover {
     cursor: pointer;
     background-color: #fff;
+  }
+  .btVouF{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 450px;
   }
 /*iphones 5 pra baixo da vida*/
 @media only screen and (max-width: 1280px) and (min-width:321px){

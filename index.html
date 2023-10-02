@@ -20,7 +20,6 @@
             </h2>
             <img src="img/tela_inicial/logo.svg" class="logo3" alt="">
             <img src="img/Video_apresentacao_pq_layout.png" class="btVideo2 imgVideo btVideo" data-bs-toggle="modal" data-bs-target="#modal-video" aria-hidden="true" alt="">
-
             <div class="inicial d-flex justify-space-between">
                 <!-- <div class="d-none d-xl-block img-menina animate__animated animate__fadeInUp animate__delay-1s"></div> -->
                 <div class="titulo-menu">
@@ -48,22 +47,20 @@
             <div class="d-none d-xl-block img-menino animate__animated animate__fadeInDown animate__delay-1s"></div>
         </div> -->
         
-        <div class="backdrop" aria-hidden="true">
-            <div class="modal-intro">
-              <p>Olá! Antes de começar, assista ao vídeo introdutório sobre o módulo a seguir.</p>
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="ytb embed-responsive-item" src="https://www.youtube.com/embed/ACyc3A1-C34?si=5QGwlohZGbr4dypa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-              
-              <div class="footer">
-                    <button class="botao-fechar">Fechar</button>
+        <div class="backdrop">
+            <div class="modal-video">
+                <div class="wrapper">
+                    <button id="fechar-video">X</button>
+                    <p>Olá! Antes de começar, assista ao vídeo introdutório sobre o módulo a seguir.</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="ytb embed-responsive-item" src="https://www.youtube.com/embed/ACyc3A1-C34?si=5QGwlohZGbr4dypa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-            </div>
+              
         </div>
    
 
         <!-- Bootstrap JavaScript Libraries -->
-        <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+        <!-- <script src="assets/bootstrap/bootstrap.bundle.min.js"></script> -->
         <!--Jquery-->
         <script src="assets/js/jquery-3.6.0.min.js"></script>
         <script src="assets/js/telaInicial.js"></script>

@@ -31,7 +31,7 @@
         <h1>Aguarde enquanto o conteúdo é carregado.</h1>
     </div>
     <!-- MARCA D´ÁGUA -->
-    <img src="../../assets/img/logo_sesc_horizontal.svg" id="marcadaguaLogo">
+    <img src="../../assets/img/sesccncsenac.png" id="marcadaguaLogo">
 
     <header id="topo" class="sesc no-print">
         <img src="../../assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
@@ -81,7 +81,7 @@
                     data-rellax-zindex="10" alt="">
                 <img src="../../assets/img/vetor-bg-topo.png" class="rellax detalhe2 no-print" data-rellax-speed="5"
                     data-rellax-zindex="10" alt=""> -->
-
+                
                 <div class="container"><br>
                     <h2 class="padrao">Introdução</h2><br>
                     <p>Este material é  fundamental para entender o papel do homem na manutenção e na permanência da espécie humana no planeta.  </p>
@@ -123,8 +123,9 @@
                         <h2>Terras indígenas de Rondônia estão entre as mais desmatadas em 2021</h2>
 
                         <a href="../../assets/objetos/fig01.jpg" target="_blank" aria-hidden="true"
-                            class="d-block text-center"><img src="../../assets/objetos/fig01.jpg" alt=""
+                            class="d-block text-center no-print" style="color: #fff;"><img src="../../assets/objetos/fig01.jpg" alt=""
                                 class="img-fluid" aria-hidden="true"></a>
+                        <img src="../../assets/objetos/fig01.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
                         <div class="visually-hidden-focusable">Fotografia de parte da terra indígena Uru Eu Wau-Wau
                             mostrando uma grande área no centro de mata queimada e, em sua volta, algumas matas verdes.
                         </div>
@@ -157,22 +158,107 @@
                             atualizadas
                             diariamente e é um excelente meio de informação sobre o tema.</p>
 
-                        <img src="../../img/podcast.svg" alt="">
+                        <!-- podcast -->
+                        
+          <div class="podcast1">
+            <!-- <div class="texto-podcast no-print">
+              <p>
+                Ouça o áudio a seguir para descobrir as respostas às nossas perguntas. Você pode escutar o áudio ou
+                clicar no ícone <img src="../conteudo/assets/img/pg2-podcast-trancricao.png" class="icone-transcricao">
+                para ler a transcrição.
+              </p>
+            </div> -->
+            <!-- <div class="sr-only no-print">
+              <p>Olá, estudante! </p>
+              <p>Com certeza, existem duas perguntas que não saem da nossa cabeça quando pensamos na Qualificação
+                Profissional de Produtor Cultural, não é verdade? Bom, a primeira delas é: a produção cultural gera
+                emprego e renda? </p>
+              <p>Pelo Brasil afora e no resto do mundo também, tem muita gente que garante o sustento para si e sua
+                família por meio das atividades de produtor cultural. Então, conhecer essa profissão e suas ferramentas
+                pode ser uma alternativa para se colocar no mundo do trabalho, que envolve economia criativa e
+                empreendedorismo cultural. </p>
+              <p>A segunda pergunta que não quer calar é: a produção cultural envolve conhecimentos que se aplicam a
+                muitas áreas? </p>
+              <p>Independentemente da orientação profissional de cada um, os conhecimentos encontrados ao longo do curso
+                de Produtor Cultural vão ser muito úteis em diferentes áreas do mundo do trabalho e da vida pessoal.
+                Ferramentas que vamos abordar ao longo do curso, como planejamento, cronograma e planilha de gastos,
+                podem ajudar você em sua trajetória profissional e até em seu próprio negócio! </p>
+
+            </div>
+            <div class="visually-hidden print">
+              <p class="no-print">Olá, estudante!</p>
+              <p>Com certeza, existem duas perguntas que não saem da nossa cabeça quando pensamos na Qualificação
+                Profissional de Produtor Cultural, não é verdade? Bom, a primeira delas é: <strong>a produção cultural
+                  gera
+                  emprego e renda?</strong>
+              </p>
+              <p>
+                Pelo Brasil afora e no resto do mundo também, tem muita gente que garante o sustento para si e sua
+                família por meio das atividades de produtor cultural. Então, conhecer essa profissão e suas ferramentas
+                pode ser uma alternativa para se colocar no <strong>mundo do trabalho</strong>, que envolve economia
+                criativa e
+                empreendedorismo cultural.
+              </p>
+              <p>A segunda pergunta que não quer calar é: <strong>a produção cultural envolve conhecimentos que se
+                  aplicam a muitas áreas?</strong> </p>
+              <p>
+                Independentemente da orientação profissional de cada um, os conhecimentos encontrados ao longo do curso
+                de Produtor Cultural vão ser muito úteis em diferentes áreas do mundo do trabalho e da vida pessoal.
+                Ferramentas que vamos abordar ao longo do curso, como planejamento, cronograma e planilha de gastos,
+                podem ajudar você em sua trajetória profissional e até em seu próprio negócio!
+              </p>
+            </div> -->
+            <div class="podcast-container no-print">
+              <div class="sesc-audio-player no-print">
+                <audio>
+                  <source src="../audio/beneficios.mp3" type="audio/mpeg">
+                </audio>
+                <div class="row">
+                  <div class="botoes">
+                    <button title="Tocar" class="btn-play btn-player"></button>
+                    <button title="Pause" class="btn-pause btn-player"></button>
+                    <button title="Transcrição" data-bs-toggle="modal" data-bs-target="#modal-transcricao-audio"
+                      class="btn-transcricao btn-player"></button>
+                    <div class="timestamp">00:00/00:00</div>
+                  </div>
+                  <div class="barra">
+                    <input type="range" value="0" max="100" step="any">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modal-transcricao-audio" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content no-print">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                </div>
+                <div class="modal-body">
+                    <p> A devastação da floresta amazônica teve uma queda de 54% nos primeiros cinco meses deste ano em comparação com o mesmo período de 2022. Apesar dessa redução, 2023 ainda teve a quarta maior área desmatada em pelo menos 16 anos, ficando atrás apenas de 2022, 2021 e 2020.  </p>
+                    <p> De janeiro a maio, a Amazônia perdeu 1.542 km² de mata nativa, o equivalente ao território da cidade de São Paulo. Os dados são do Sistema de Alerta de Desmatamento, o SAD, do Imazon, que monitora a Amazônia Legal por imagens de satélite desde 2008.  </p>
+                    <p> Em relação aos meses, maio foi o que apresentou a maior queda na devastação, de 77%. Isso porque a derrubada passou de 1.476 km² em maio de 2022 para 339 km² no mesmo mês deste ano, redução que precisa seguir para que 2023 feche fora das primeiras posições no ranking dos anos com as maiores áreas destruídas.  </p>
+                    <p> Segundo Larissa Amorim, do Imazon, “para intensificar ainda mais o combate ao desmatamento, é necessário que os órgãos ambientais sigam sendo fortalecidos, a fim de que consigam ter capacidade suficiente para impedir a continuidade de atividades como o garimpo ilegal, a invasão de áreas protegidas e a grilagem de terras. E, também, para realizar a destinação para a conservação de terras públicas ainda sem uso definido, que estão mais vulneráveis ao desmatamento”. </p>
+                
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+                        <!-- podcast -->
+                        <!-- <img src="../../img/podcast.svg" alt=""> -->
                         <div class="acessivel visually-hidden print">
-                            <p>
-                                A devastação da floresta amazônica teve uma queda de 54% nos primeiros cinco meses deste ano em comparação com o mesmo período de 2022. Apesar dessa redução, 2023 ainda teve a quarta maior área desmatada em pelo menos 16 anos, ficando atrás apenas de 2022, 2021 e 2020.
-                            
-                            </p>
-                            <p>De janeiro a maio, a Amazônia perdeu 1.542 km² de mata nativa, o equivalente ao território da cidade de São Paulo. Os dados são do Sistema de Alerta de Desmatamento, o SAD, do Imazon, que monitora a Amazônia Legal por imagens de satélite desde 2008. 
-                            </p>
-                            <p>Em relação aos meses, maio foi o que apresentou a maior queda na devastação, de 77%. Isso porque a derrubada passou de 1.476 km² em maio de 2022 para 339 km² no mesmo mês deste ano, redução que precisa seguir para que 2023 feche fora das primeiras posições no ranking dos anos com as maiores áreas destruídas. 
-                            </p>
-                            <p>
-                                Segundo Larissa Amorim, do Imazon, “para intensificar ainda mais o combate ao desmatamento, é necessário que os órgãos ambientais sigam sendo fortalecidos, a fim de que consigam ter capacidade suficiente para impedir a continuidade de atividades como o garimpo ilegal, a invasão de áreas protegidas e a grilagem de terras. E, também, para realizar a destinação para a conservação de terras públicas ainda sem uso definido, que estão mais vulneráveis ao desmatamento”. 
-                            </p>
+                            <p> A devastação da floresta amazônica teve uma queda de 54% nos primeiros cinco meses deste ano em comparação com o mesmo período de 2022. Apesar dessa redução, 2023 ainda teve a quarta maior área desmatada em pelo menos 16 anos, ficando atrás apenas de 2022, 2021 e 2020.  </p>
+                            <p> De janeiro a maio, a Amazônia perdeu 1.542 km² de mata nativa, o equivalente ao território da cidade de São Paulo. Os dados são do Sistema de Alerta de Desmatamento, o SAD, do Imazon, que monitora a Amazônia Legal por imagens de satélite desde 2008.  </p>
+                            <p> Em relação aos meses, maio foi o que apresentou a maior queda na devastação, de 77%. Isso porque a derrubada passou de 1.476 km² em maio de 2022 para 339 km² no mesmo mês deste ano, redução que precisa seguir para que 2023 feche fora das primeiras posições no ranking dos anos com as maiores áreas destruídas.  </p>
+                            <p> Segundo Larissa Amorim, do Imazon, “para intensificar ainda mais o combate ao desmatamento, é necessário que os órgãos ambientais sigam sendo fortalecidos, a fim de que consigam ter capacidade suficiente para impedir a continuidade de atividades como o garimpo ilegal, a invasão de áreas protegidas e a grilagem de terras. E, também, para realizar a destinação para a conservação de terras públicas ainda sem uso definido, que estão mais vulneráveis ao desmatamento”. </p>
                         </div>
 
-
+                        <br><br>
                         <p>Para começar a entender esses acontecimentos nas terras indígenas, é necessário conhecer seus
                             espaços, transformações e interações. Por isso, inicie seus estudos em <strong>paisagem e
                                 espaço
@@ -276,8 +362,11 @@
                         culturais,
                         em um mesmo ambiente. </p>
                     <a href="../../assets/objetos/fig02.jpg" target="_blank" aria-hidden="true"
-                        class="d-block text-center"><img src="../../assets/objetos/fig02.jpg" alt="" class="img-fluid"
+                        class="d-block text-center no-print"><img src="../../assets/objetos/fig02.jpg" alt="" class="img-fluid"
                             aria-hidden="true"></a>
+
+                    <img src="../../assets/objetos/fig02.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
                     <div class="visually-hidden-focusable">Imagem aérea mostrando parte de uma terra indígena Pirititi,
                         em
                         Roraima, com a presença da floresta amazônica, em tom verde-escuro, parcialmente modificada pela
@@ -300,8 +389,11 @@
                         elementos naturais (árvores e colinas) quanto culturais (casas e cercas).</p>
                     <br><br>
                     <a href="../../assets/objetos/fig03.jpg" target="_blank" aria-hidden="true"
-                        class="d-block text-center"><img src="../../assets/objetos/fig03.jpg" alt="" class="img-fluid"
+                        class="d-block text-center no-print"><img src="../../assets/objetos/fig03.jpg" alt="" class="img-fluid"
                             aria-hidden="true"></a>
+
+                    <img src="../../assets/objetos/fig03.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
                     <div class="visually-hidden-focusable">Pintura colorida chamada “Paisagem com touro”, de Tarsila do
                         Amaral. Apresenta diversos tipos de vegetação, como árvores, arbustos e grama, em tons de verde.
                         Em
@@ -365,8 +457,12 @@
 
 
                     <a href="../../assets/objetos/fig04.jpg" target="_blank" aria-hidden="true"
-                        class="d-block text-center"><img src="../../assets/objetos/fig04.jpg" alt="" class="img-fluid"
-                            aria-hidden="true"></a>
+                        class="d-block text-center no-print"><img src="../../assets/objetos/fig04.jpg" alt="" class="img-fluid"
+                            aria-hidden="true">
+                    </a>
+                    
+                    <img src="../../assets/objetos/fig04.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
                     <div class="visually-hidden-focusable">A charge retrata dois indígenas, um adulto e uma criança,
                         observando uma área que era de floresta, totalmente desmatada. Ao fundo, céu azul e sol. Eles
                         conversam dizendo “Estão destruindo tudo”.
@@ -405,10 +501,13 @@
                     </div> -->
                         <h3>Coordenadas geográficas, localização e GPS (Sistema de Posicionamento Global)</h3>
                         <p>Todos os lugares retratados nos tópicos anteriores, como as paisagens e o espaço geográfico, podem ser localizados de uma forma exata. Veja mais detalhes no globo a seguir:</p>
-                        <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo </p>
-                        <br><br>
+                        <div style="width: 400px; height: 250px; margin: 0 auto; text-align: center; background-color: burlywood;">
+                            Espera para oda
+                        </div>
+                        <!-- <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo </p>
+                        <br><br> -->
                         <!-- Painel com abas -->
-                        <div class="painel-abas no-print" aria-hidden="true">
+                        <!-- <div class="painel-abas no-print" aria-hidden="true">
                             <ul class="nav nav-tabs" id="painelExemplo" role="tablist">
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link active" id="tab01-tab" data-bs-toggle="tab"
@@ -422,7 +521,6 @@
                                 </li>
 
                             </ul>
-                            <!-- Tab panes -->
                             <div class="tab-content">
                                 <div class="tab-pane active" id="tab01" role="tabpanel" aria-labelledby="tab01-tab">
                                     <h3>Meridianos</h3>
@@ -446,7 +544,7 @@
                                 </div>
 
                             </div>
-                        </div>
+                        </div> -->
                         <div class="visually-hidden print">
                             <h3>Meridianos</h3>
                             <p>Os meridianos são linhas imaginárias, semicírculos, traçados de polo a polo, tendo como
@@ -497,11 +595,11 @@
                     <img src="../../assets/img/Vector4.png" class="rellax detalhe8 no-print" data-rellax-speed="1"
                         data-rellax-zindex="10" alt="">
                 </div> -->
-                    <p><strong>Clique</strong> ou <strong>toque</strong> para ampliar a imagem.</p>
+                    <!-- <p><strong>Clique</strong> ou <strong>toque</strong> para ampliar a imagem.</p>
                     <br><br>
                     <a href="../../assets/objetos/fig6-01.png" target="_blank" aria-hidden="true"
                         class="d-block text-center"><img src="../../assets/objetos/6-01.png" alt="" class="img-fluid"
-                            aria-hidden="true"></a>
+                            aria-hidden="true"></a> -->
                     <!-- <div class="visually-hidden-focusable">A imagem mostra um mapa das regiões nordeste e norte do
                         Brasil com alguns territórios indígenas do país. No lado esquerdo do mapa, há um ponto
                         vermelho
@@ -527,8 +625,12 @@
                         coordenadas geográficas por meio do sistema de GPS.</p>
                     <br><br>
                     <a href="../../assets/objetos/fig07.jpg" target="_blank" aria-hidden="true"
-                        class="d-block text-center"><img src="../../assets/objetos/fig07.jpg" alt="" class="img-fluid"
-                            aria-hidden="true"></a>
+                        class="d-block text-center no-print"><img src="../../assets/objetos/fig07.jpg" alt="" class="img-fluid"
+                            aria-hidden="true">
+                    </a>
+                    <img src="../../assets/objetos/fig07.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
+
                     <div class="visually-hidden-focusable">A imagem mostra um mapa das regiões nordeste e norte do
                         Brasil com alguns territórios indígenas do país. No lado esquerdo do mapa, há um ponto
                         vermelho
@@ -565,6 +667,7 @@
                 <img src="../../assets/img/vetor-bg-topo.png" class="rellax detalhe2 no-print" data-rellax-speed="5" data-rellax-zindex="10" alt="" style="z-index: 1"> -->
         
              <div class="container">
+                <h2>Disputas territoriais, disputas entre os povos brasileiros: territórios indígenas e quilombolas </h2>
                  
                  <p>Você já viu o que são as paisagens e os espaços geográficos, compreendeu as coordenadas
                      geográficas e
@@ -597,7 +700,7 @@
 
                      <p>A partir de agora, descubra como são definidos, quais as leis que os amparam, onde estão
                          localizados e como esses territórios se caracterizam.</p>
-                     <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo</p>
+                     <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo.</p>
                      <div class="row no-print" aria-hidden="true">
                          <div class="col-12 col-md-6 text-center">
                              <button class="btn-sesc-image" data-bs-target="#indigenas" data-bs-toggle="modal">
@@ -622,9 +725,59 @@
                              </button>
                          </div>
                      </div>
+   
                     <div>
+                        <div class="caixa icone praticar">
+                            <p>Acesse o jogo a seguir e pratique seus conhecimentos sobre os povos tradicionais do Brasil. </p>
+                        </div>
+                        <img src="../../img/bt_VouF.svg" class="btVouF" alt="">
+                        
+           
                     
-                    <h2 class="modal-title" id="staticBackdropLabel">Territórios indígenas</h2>
+                <!-- <div class="esquemaDaBru no-print">
+                    <div class="enunciado" tabindex="0">
+                      <p>
+                        1. Observe as ofertas de certo supermercado:
+                      </p>
+    
+                    </div>
+                    <div class="row">
+                            <button class="alt-e btn-sesc" title="alternativa: ">
+                              a) R$ 26,59
+                            </button>
+                        
+                            <button class="alt-c btn-sesc" title="alternativa: ">
+                              b) R$ 16,07
+                            </button>
+                    </div>
+                    <div class="feedbacks">
+                      <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                          class="fas fa-check"></i>Resposta correta! Parabéns, você acertou o valor da quantia economizada
+                        por Moisés! </p>
+                      <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                          class="fas fa-times"></i>Resposta incorreta! O valor não corresponde à quantia economizada por
+                        Moisés! </p>
+                    </div>
+                  </div> -->
+            
+                    </div>
+
+
+                 </div>
+                                   
+  <!-- Modal , diagramar proximo ao conteudo para o print-->
+  <div class="modal fade" id="indigenas" tabindex="-1" role="dialog"
+  aria-labelledby="transcricao-title" aria-hidden="false">
+  <div class="modal-dialog modal-dialog-centered modal-fullscreen" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+             
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+                    <div class="container">
+                        <h2 class="padrao" id="staticBackdropLabel">Territórios indígenas</h2><br><br>
                     <p>Você já sabe que, antes da chegada dos povos europeus, no ano de 1500, ao
                         território que hoje é Brasil, havia milhares de povos indígenas habitando a
                         região. Agora entenda como as populações indígenas estão vivendo hoje, quais
@@ -638,6 +791,12 @@
                         dos grupos: Tupi-guarani, Jê, Aruak, Karib, Pano, Tukano, Charrua e outros
                         grupos.
                     </p>
+                    <a href="../../assets/objetos/fig08.jpg" target="_blank" aria-hidden="true"
+                                            class="d-block text-center no-print"><img src="../../assets/objetos/fig08.jpg" alt="A imagem mostra o percentual habitacional da população indígena no Brasil, dividido por grandes regiões e unidades de federação. O total da população indígena atualmente é de 1.693.535 (0,83% do total da população residente), do qual 44,48% (753.357) estão localizados na região Norte, 31,22% (528.800) estão localizados na região Nordeste, 11,80% (199.912) estão localizados na região Centro-Oeste, 7,28% (123.369) estão localizados na região Sudeste e 5,20% (88.097) estão localizados na região Sul. A imagem mostra especificamente a população indígena em cada estado brasileiro da federação, com os seguintes dados populacionais: Amazonas 490.854, Bahia 229.103, Mato Grosso do Sul 116.346, Pernambuco 106.634, Roraima 97.320, Pará 80.974, Mato Grosso 58.231, Maranhão 57.214, Ceará 56.353, São Paulo 55.295, Minas Gerais 36.699, Rio Grande do Sul 36.096, Acre 31.699, Paraná 30.460, Paraíba 30.140, Alagoas 25.725, Santa Catarina 21.541, Rondônia 21.153, Tocantins 20.023, Goiás 19.522, Rio de Janeiro 16.964, Espírito Santo 14.411, Rio Grande do Norte 11.725, Amapá 11.334, Piauí 7.198, Distrito Federal 5.813 e Sergipe 4.708. " class="img-fluid"
+                                                aria-hidden="true">
+                    </a>
+                    <img src="../../assets/objetos/fig08.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
                     <p class="legenda">Figura 6 – Povos indígenas do Brasil na época do descobrimento <br>
 
                         Fonte: Souza (c2011-2023) 
@@ -646,15 +805,18 @@
                     <br><br>
                     <p>Atualmente, no Brasil, conforme dados do último censo demográfico, realizado em 2022 pelo Instituto Brasileiro de Geografia e Estatística (IBGE), os povos originários ocupam os seguintes percentuais do território brasileiro, mostrados na imagem:  </p>
                     <a href="../../img/figura7.jpg" target="_blank" aria-hidden="true"
-                                            class="d-block text-center"><img src="../../img/figura7.jpg" alt="A imagem mostra o percentual habitacional da população indígena no Brasil, dividido por grandes regiões e unidades de federação. O total da população indígena atualmente é de 1.693.535 (0,83% do total da população residente), do qual 44,48% (753.357) estão localizados na região Norte, 31,22% (528.800) estão localizados na região Nordeste, 11,80% (199.912) estão localizados na região Centro-Oeste, 7,28% (123.369) estão localizados na região Sudeste e 5,20% (88.097) estão localizados na região Sul. A imagem mostra especificamente a população indígena em cada estado brasileiro da federação, com os seguintes dados populacionais: Amazonas 490.854, Bahia 229.103, Mato Grosso do Sul 116.346, Pernambuco 106.634, Roraima 97.320, Pará 80.974, Mato Grosso 58.231, Maranhão 57.214, Ceará 56.353, São Paulo 55.295, Minas Gerais 36.699, Rio Grande do Sul 36.096, Acre 31.699, Paraná 30.460, Paraíba 30.140, Alagoas 25.725, Santa Catarina 21.541, Rondônia 21.153, Tocantins 20.023, Goiás 19.522, Rio de Janeiro 16.964, Espírito Santo 14.411, Rio Grande do Norte 11.725, Amapá 11.334, Piauí 7.198, Distrito Federal 5.813 e Sergipe 4.708. " class="img-fluid"
-                                                aria-hidden="true"></a>
-                                        <div class="visually-hidden-focusable">
-                                        </div>
-                                        <p class="legenda">Figura 7 – População Indígena no Brasil – Por grandes regiões e unidades da federação, conforme o Censo de 2022 <br>
+                                            class="d-block text-center no-print"><img src="../../img/figura7.jpg" alt="A imagem mostra o percentual habitacional da população indígena no Brasil, dividido por grandes regiões e unidades de federação. O total da população indígena atualmente é de 1.693.535 (0,83% do total da população residente), do qual 44,48% (753.357) estão localizados na região Norte, 31,22% (528.800) estão localizados na região Nordeste, 11,80% (199.912) estão localizados na região Centro-Oeste, 7,28% (123.369) estão localizados na região Sudeste e 5,20% (88.097) estão localizados na região Sul. A imagem mostra especificamente a população indígena em cada estado brasileiro da federação, com os seguintes dados populacionais: Amazonas 490.854, Bahia 229.103, Mato Grosso do Sul 116.346, Pernambuco 106.634, Roraima 97.320, Pará 80.974, Mato Grosso 58.231, Maranhão 57.214, Ceará 56.353, São Paulo 55.295, Minas Gerais 36.699, Rio Grande do Sul 36.096, Acre 31.699, Paraná 30.460, Paraíba 30.140, Alagoas 25.725, Santa Catarina 21.541, Rondônia 21.153, Tocantins 20.023, Goiás 19.522, Rio de Janeiro 16.964, Espírito Santo 14.411, Rio Grande do Norte 11.725, Amapá 11.334, Piauí 7.198, Distrito Federal 5.813 e Sergipe 4.708. " class="img-fluid"
+                                                aria-hidden="true">
+                    </a>
+                    <img src="../../img/figura7.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
 
-                                            Fonte: Cabral; Gomes (2023)  
+                    <div class="visually-hidden-focusable">
+                    </div>
+                    <p class="legenda">Figura 7 – População Indígena no Brasil – Por grandes regiões e unidades da federação, conforme o Censo de 2022 <br>
 
-                                        </p>
+                        Fonte: Cabral; Gomes (2023)  
+
+                    </p>
 
 
                         <p><strong>Quem são os povos indígenas?</strong></p>
@@ -727,9 +889,13 @@
                         Helepi e, mais recentemente, em Palimiú, no município de Alto Alegre, ao Norte
                         de Roraima.</p>
 
-                        <a href="../../assets/objetos/fig04.jpg" target="_blank" aria-hidden="true"
-                        class="d-block text-center"><img src="../../assets/objetos/fig04.jpg" alt="Fotografia aérea da comunidade indígena de Palimiú. A imagem mostra algumas construções em meio à floresta em tons verdes e à beira do rio Uraricoera, de tom turvo, no estado de Roraima. " class="img-fluid"
-                            aria-hidden="true"></a>
+                        <a href="../../assets/objetos/fig09.jpg" target="_blank" aria-hidden="true"
+                        class="d-block text-center no-print"><img src="../../assets/objetos/fig09.jpg" alt="Fotografia aérea da comunidade indígena de Palimiú. A imagem mostra algumas construções em meio à floresta em tons verdes e à beira do rio Uraricoera, de tom turvo, no estado de Roraima. " class="img-fluid"
+                            aria-hidden="true">
+                        </a>
+                        <img src="../../assets/objetos/fig09.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
+
                     <p class="legenda">Figura 8 – Comunidade Palimiú, na Terra Indígena Yanomami, fica às margens do rio Uraricoera <br>
 
                         Fonte: Pereira (2021) 
@@ -752,9 +918,12 @@
                         áreas hoje ocupadas por fazendas, reivindicadas como territórios ancestrais
                         pelas comunidades. </p>
 
-                        <a href="../../assets/objetos/fig04.jpg" target="_blank" aria-hidden="true"
-                        class="d-block text-center"><img src="../../assets/objetos/fig04.jpg" alt="Fotografia aérea da comunidade indígena de Palimiú. A imagem mostra algumas construções em meio à floresta em tons verdes e à beira do rio Uraricoera, de tom turvo, no estado de Roraima. " class="img-fluid"
-                            aria-hidden="true"></a>
+                        <a href="../../assets/objetos/fig10.jpg" target="_blank" aria-hidden="true"
+                        class="d-block text-center no-print"><img src="../../assets/objetos/fig10.jpg" alt="Fotografia aérea da comunidade indígena de Palimiú. A imagem mostra algumas construções em meio à floresta em tons verdes e à beira do rio Uraricoera, de tom turvo, no estado de Roraima. " class="img-fluid"
+                            aria-hidden="true">
+                        </a>
+                        <img src="../../assets/objetos/fig10.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
                     <p class="visually-hidden-focusable">Imagem: Fotografia de três indígenas da etnia
                         Guarani, duas mulheres e um homem, sorrindo, com acessórios típicos.
                     </p>
@@ -793,9 +962,12 @@
                         Guajajara, coordenadora executiva da APIB.</p>
                     
                     <br><br>    <a href="../../assets/objetos/fig11.jpg" target="_blank" aria-hidden="true"
-                        class="d-block text-center"><img src="../../assets/objetos/fig11.jpg" alt=""
-                            class="img-fluid" aria-hidden="true"></a>
-                    <p class="visually-hidden-focusable">Imagem: Fotografia de um grupo de indígenas em pé
+                        class="d-block text-center no-print"><img src="../../assets/objetos/fig11.jpg" alt=""
+                            class="img-fluid" aria-hidden="true">
+                        </a>
+                        <img src="../../assets/objetos/fig11.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
+                            <p class="visually-hidden-focusable">Imagem: Fotografia de um grupo de indígenas em pé
                         ouvindo a ativista indígena Sônia Guajajara, sentada em frente a eles, ao
                         centro, falando ao microfone. Sentados, à direita de Sônia, há um homem
                         indígena, e à esquerda, uma mulher indígena.
@@ -807,8 +979,11 @@
                     </p>
                     <br><br>
                     <a href="../../assets/objetos/fig12.jpg" target="_blank" aria-hidden="true"
-                        class="d-block text-center"><img src="../../assets/objetos/fig12.jpg" alt=""
-                            class="img-fluid" aria-hidden="true"></a>
+                        class="d-block text-center no-print"><img src="../../assets/objetos/fig12.jpg" alt=""
+                            class="img-fluid" aria-hidden="true">
+                    </a>
+                    <img src="../../assets/objetos/fig12.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
                     <p class="visually-hidden no-print"> A imagem mostra o mapa do Brasil e os demais
                         países da América Latina. No território brasileiro, estão destacadas em verde as
                         terras indígenas demarcadas, com maior incidência nos estados do Amazonas, Pará,
@@ -822,11 +997,11 @@
                     </p><br><br>
                     <p>E como é a relação dos povos indígenas em áreas urbanas? Confira no vídeo.</p>
 
-                        <!-- <iframe aria-hidden="true" class="youtube-pl" width="560" height="315"
+                        <iframe aria-hidden="true" class="youtube-pl" width="560" height="315"
                             src="https://www.youtube.com/embed/h7MYJghRWt0?modestbranding=1"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe> -->
+                            allowfullscreen></iframe>
                     <p class="visually-hidden-focusable print">
                         Para pensar sobre: como os indígenas se organizam e vivem na zona urbana? Lembramos ainda neste módulo, que o último levantamento do IBGE sobre as populações indígenas no Brasil foi feito em 2010. Por esta pesquisa pudemos saber que 76,7% dos indígenas com 15 anos ou mais sabem ler e escrever no país, seja em português ou em seu idioma. A pesquisa também verificou que das 817.963 pessoas entrevistadas pelo instituto 502.783 viviam na região rural – uma elevação de 43% se comparado com o Censo de 2000 (350.829) e de 125% ao número apresentado em 1991, ou seja, aumentou o número de indígenas vivendo na zona rural. Ainda assim, a presença destes grupos no espaço urbano torna-se mais plural e uma das conquistas refere-se à entrada cada vez maior nas Universidades. A partir de 2000, a participação de indígenas só aumentou, graças a políticas públicas de ação afirmativa e democratização do ensino superior.  
 
@@ -845,9 +1020,30 @@
                         <li><i class="fas fa-check    "></i> Organização Survival International</li>
                     </ul>
 
-                        
+                    </div>
 
-                    <h2 class="modal-title">Territórios quilombolas</h2>
+
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn-sesc up" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <!-- Modal , diagramar proximo ao conteudo para o print-->
+  <div class="modal fade" id="quilombolas" tabindex="-1" role="dialog"
+  aria-labelledby="transcricao-title" aria-hidden="false">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+       
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+                <h2 class="modal-title">Territórios quilombolas</h2>
                     <p>De acordo com a História do Brasil colonial, uma das características fundamentais
                         da formação social, política e econômica do povo brasileiro é, sem dúvida, o
                         fato de ter vivido durante quase 400 anos sob o domínio do trabalho escravo. As
@@ -855,7 +1051,7 @@
                         vieram também toda a sua cultura e seus hábitos, rituais e religiosidade dos
                         locais de origem. </p>
 
-                        <div class="caixa icone refletir">
+                        <div class="caixa icone pesquisaNet">
                             Pesquise na internet o <i>site</i> Slave Voyages e saiba como foi a vinda das pessoas escravizadas trazidas do continente africano. 
                         </div>
 
@@ -890,16 +1086,18 @@
                         Baixo Amazonas, sobre o que significam os direitos reivindicados pelos
                         quilombolas:</p>
                     <br>
-                    <img src="../../assets/objetos/fig13.png"
+                    
+                    
+                    <div class="depoimentos">
+                        <img src="../../img/avatar2.jpeg"
                     alt="Fotografia do historiador Eurípedes Funes. Ele está pousando para a foto usando uma blusa preta."
-                    class="d-foto">
-                    <p class="legenda">Figura 12 – Historiador Eurípedes Funes <br>
+                    class="d-foto" style="width: 250px;">
+                        <!-- <p class="legenda">Figura 12 – Historiador Eurípedes Funes <br>
 
-                        Fonte: SIG Eventos (UFRN) (c2006) </p>
+                        Fonte: SIG Eventos (UFRN) (c2006) </p> -->
                         
                         <p class="d-nome">Eurípedes Funes<span>Historiador</span></p>
-
-                    
+                        <div class="d-texto">
                             <p>“O direito à terra, historicamente conquistado. O direito à sua
                                 especificidade negra, raiz profunda de sua cultura. O direito de
                                 reproduzir seu modo de vida agrícola e extrativo, sobre as bases da
@@ -910,7 +1108,8 @@
                                 administrativa, de qualquer esfera, que possa vir a incidir sobre as
                                 comunidades negras por órgãos dos governos, ou não, deve ser precedida
                                 de consulta aos seus legítimos interlocutores”</p>
-                        
+                        </div>
+                    </div>    
 
                     
                         <p>Para ler a entrevista na íntegra, acesse o <em>site</em> da Fiocruz e busque a
@@ -918,15 +1117,18 @@
 
                     <br><br>
                     <a href="../../assets/objetos/fig14.jpg" target="_blank" aria-hidden="true"
-                        class="d-block text-center"><img src="../../assets/objetos/fig14.jpg" alt=""
-                            class="img-fluid" aria-hidden="true"></a>
+                        class="d-block text-center no-print"><img src="../../assets/objetos/fig14.jpg" alt=""
+                            class="img-fluid" aria-hidden="true">
+                    </a>
+                    <img src="../../assets/objetos/fig14.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
                     <p class="no-print visually-hidden">Imagem: Fotografia de uma roda de mulheres negras,
                         com saias coloridas e rodadas. Ao centro, uma das mulheres sorri, de turbante
                         verde, blusa branca e saia em tons terrosos.
                     </p>
-                    <p class="legenda">Figura 13 – Festa na comunidade quilombola Família Xavier, em Arapoti, no Paraná 
+                    <p class="legenda">Figura 13 – Festa na comunidade quilombola Família Xavier, em Arapoti, no Paraná  <br>
 
-                        Fonte: Trombini (2018) <br>
+                        Fonte: Trombini (2018)
                     </p>
                     <br><br>
                     <p>Segundo o <em>site</em> Agência Brasil, desde 1988 (ano da promulgação da Constituição
@@ -955,17 +1157,19 @@
 
 
 
-                        <br><br><br>
+                        <div class="depoimentos">
+                        
 
-                        <img src="../../assets/objetos/fig15.png"
+                        <img src="../../img/avatar1.jpeg"
                             alt="Fotografia da pesquisadora Givânia Maria da Silva. Ela está pousando para a foto sorrindo, usa óculos e um blazer azul."
-                            class="d-foto">
+                            class="d-foto" style="width: 250px;">
                         <p class="d-nome">Figura 14 – Pesquisadora Givânia Maria da Silva <br>
 
                             Fonte: Martins (2021) </p>
 
+                            <div class="d-texto">
 
-                            <p>“O pertencimento em relação ao território é algo mais profundo. A luta
+                                <p>“O pertencimento em relação ao território é algo mais profundo. A luta
                                 quilombola existe porque há um sentimento por parte dos quilombolas de
                                 que aquele território em que eles habitam é deles. Mas não é deles por
                                 conta de propriedade, é deles enquanto espaço de vida, de cultura, de
@@ -976,6 +1180,8 @@
                                 a melhor. A nossa luta pela terra não é pautada por princípios
                                 econômicos e sim por fundamentos culturais, ancestrais. É o sentimento
                                 de continuidade da luta e resistência”.</p>
+                            </div>
+                        </div>
 
 
 
@@ -1005,8 +1211,10 @@
 
                     <br><br><br>
                     <a href="../../assets/objetos/fig16.jpg" target="_blank" aria-hidden="true"
-                        class="d-block text-center"><img src="../../assets/objetos/fig16.jpg" alt=""
+                        class="d-block text-center no-print"><img src="../../assets/objetos/fig16.jpg" alt=""
                             class="img-fluid" aria-hidden="true"></a>
+                    <img src="../../assets/objetos/fig16.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
                     <p class="visually-hidden-focusable">Imagem: Tirinha do personagem Armandinho. No
                         primeiro quadro, Armandinho está com três amigos. Um deles diz “por isso é
                         considerado um símbolo da resistência e da luta por liberdade”. No segundo
@@ -1052,15 +1260,19 @@
                     </div>
 
                     <a href="../../assets/objetos/fig17.jpg" target="_blank" aria-hidden="true"
-                        class="d-block text-center"><img src="../../assets/objetos/fig17.jpg" alt=""
-                            class="img-fluid" aria-hidden="true"></a>
-                    <p class="visually-hidden">Imagem: Fotografia antiga em preto e branco de
+                        class="d-block text-center no-print">
+                        <img src="../../assets/objetos/fig17.jpg" alt=""
+                            class="img-fluid" aria-hidden="true">
+                    </a>
+                    <img src="../../assets/objetos/fig17.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
+                    <p class="visually-hidden no-print">Imagem: Fotografia antiga em preto e branco de
                         Aqualtune, uma mulher negra em vestes brancas, sentada com a mão no rosto,
                         como que refletindo. Ela usa turbante e diversas pulseiras, colares e
                         brincos de metal.
                     </p>
                     <p class="legenda">Figura 16 – Aqualtune <br>
-                        Fonte: Ferrez apud Garcia (2019) 
+                        Fonte: Ferrez <i>apud</i> Garcia (2019) 
                     </p>
                     <br><br>
                     <p>No <em>site</em> do Instituto Nacional de Colonização e Reforma Agrária
@@ -1074,7 +1286,7 @@
                     <br>
 
 
-                    <p>Imagem: Mapa do Brasil dividido em Estados. Em
+                    <p class="visually-hidden no-print">Imagem: Mapa do Brasil dividido em Estados. Em
                         todos eles, com exceção dos Estados de Roraima e Acre, há dois círculos com
                         dados: um círculo em amarelo que indica as terras quilombolas em processo de
                         titulação e um círculo marrom com as terras já tituladas. O Estado com maior
@@ -1083,6 +1295,13 @@
                         quilombolas em processo 1.525” e um círculo menor em marrom contendo “Terras
                         quilombolas titulações 167”.
                     </p>
+                    
+                    <a href="../../assets/objetos/fig18.jpg" target="_blank" aria-hidden="true"
+                        class="d-block text-center no-print"><img src="../../assets/objetos/fig18.jpg" alt=""
+                            class="img-fluid" aria-hidden="true">
+                    </a>
+                    <img src="../../assets/objetos/fig18.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
                     <p class="legenda">Figura 17 – Monitoramento Terras Quilombolas <br>
 
                         Fonte: Comissão Pró-Índio de São Paulo (2017) 
@@ -1100,43 +1319,18 @@
                             Fundação Cultural Palmares</li>
                         <li><i class="fas fa-check    "></i> <em>Site</em> do Conaq</li>
                     </ul>
-                    <h1>ODA V OU F</h1>
-                    
-           
-                    
-                <!-- <div class="esquemaDaBru no-print">
-                    <div class="enunciado" tabindex="0">
-                      <p>
-                        1. Observe as ofertas de certo supermercado:
-                      </p>
-    
-                    </div>
-                    <div class="row">
-                            <button class="alt-e btn-sesc" title="alternativa: ">
-                              a) R$ 26,59
-                            </button>
+
                         
-                            <button class="alt-c btn-sesc" title="alternativa: ">
-                              b) R$ 16,07
-                            </button>
-                    </div>
-                    <div class="feedbacks">
-                      <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
-                          class="fas fa-check"></i>Resposta correta! Parabéns, você acertou o valor da quantia economizada
-                        por Moisés! </p>
-                      <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
-                          class="fas fa-times"></i>Resposta incorreta! O valor não corresponde à quantia economizada por
-                        Moisés! </p>
-                    </div>
-                  </div> -->
-            
 
 
-
-                    </div>
-
-
-                 </div>
+                </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn-sesc up" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
             </div>
 
 
@@ -1146,7 +1340,8 @@
                 <!-- <img src="../../assets/img/vector.png" class="rellax detalhe1 no-print" data-rellax-speed="3" data-rellax-zindex="10" alt="" style="z-index: 1">
                    <img src="../../assets/img/vetor-bg-topo.png" class="rellax detalhe2 no-print" data-rellax-speed="5" data-rellax-zindex="10" alt="" style="z-index: 1">
                  -->
-                   <div class="container pb-80">
+                   <div class="container pb-30">
+                    <h2>As fronteiras urbanas, fronteiras culturais e a juventude </h2>
                     <p>Estudante, neste módulo, você conhecerá mais sobre as fronteiras urbanas e as fronteiras
                         culturais e como as juventudes vivem essas fronteiras no momento histórico atual. Anteriormente,
                         foi visto que os territórios têm relações de poder, fronteiras, utilização de espaços e suas
@@ -1182,7 +1377,7 @@
 
 
                 <div class="container">
-                    <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo</p>
+                    <!-- <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo</p>
                     <div class="row" aria-hidden="true">
                         <div class="col-12 col-md-4 text-center">
                             <button class="btn-sesc-image" data-bs-toggle="modal" data-bs-target="#f-urbanas">
@@ -1215,8 +1410,8 @@
                                 </span>
                             </button>
                         </div>
-                    </div>
-                    <div class="visually-hidden print">
+                    </div> -->
+                    <!-- <div class="visually-hidden no-print">
                         <h2 class="padrao mb-5">Fronteiras urbanas</h2>
                             <p>Para iniciar a compreensão desses conceitos, é preciso entender o que são as fronteiras
                                 urbanas. Serão destacadas as cidades, as grandes cidades e as capitais do Brasil, onde
@@ -1360,22 +1555,66 @@
                                 </div>
 
     
-                    </div>
-<br><br><br>
-
-                    <!-- <div class="text-center">
-                        <a href="../2_disputas_territoriais/index.html" class="bto-proximo no-print voltar"><i
-                                class="fas fa-arrow-left    "></i> Voltar</a>
-                        <a href="../4_questoes_ambientais/index.html" class="bto-proximo no-print">Próximo: <strong>Questões Ambientais</strong></a>
                     </div> -->
 
-                    <br><br><br>
+                    <!-- inicio conteudo modal f-urbanas -->
+                    
+                    <div class="conteudo_f-urbanas">
+                            <h2 class="padrao mb-5">Fronteiras urbanas</h2>
+                            <p>Quando pensamos em fronteiras urbanas, muitas vezes identificamos os limites de um espaço, de um país. Mas podemos enxergar a linha de divisão de um espaço, de uma cidade ou de um bairro? Na maior parte das vezes não. Essas fronteiras são “invisíveis aos nossos olhos”. Mas elas existem! </p>
+                            <p>As cidades e as capitais do Brasil têm espaços públicos, espaços que todos os cidadãos podem acessar livremente. Existem também os espaços privados, como as casas particulares, por exemplo; e os chamados shopping centers, que são espaços de ordem privada, mas de livre circulação. Nas cidades, é possível identificar também a separação por grupos em bairros, vilas, favelas, comunidades, áreas indígenas etc. Sendo assim, as fronteiras urbanas podem incluir ou excluir populações de todo um território. </p>
+                            <p>Nos espaços das cidades, por exemplo, há locais que são ocupados por determinados grupos, há espaços que determinam a população que deve circular. Quando delimitamos que determinadas pessoas não devem circular em bairros, espaços como shopping centers e até mesmo em espaço público, estamos delimitando esse espaço. No Brasil, de forma até mesmo excludente, há uma determinação de fronteiras para as classes sociais.  </p>
+                            <p>É comum presenciarmos situações em que pessoas são excluídas de bairros por não estarem no chamado “apropriado” para aquele lugar. Quando realizamos essa exclusão de pessoas dentro de uma cidade, estamos limitando, estamos colocando fronteiras que devem ser demarcadas a determinados grupos. </p>
+
+                            <div class="caixa icone refletir">
+                                Pense agora em como as fronteiras urbanas podem estar modificando a paisagem de territórios indígenas. Se, por um lado, os grupos diferenciam-se e agrupam-se, podendo gerar conflitos e guerras por território urbano, por outro, a constante ampliação desse espaço urbano e o crescimento dele sem pensar no próximo resultam em processos negativos em outras etnias. 
+                            </div>
+
+                            
+                            <figure>
+                                <img src="../../assets/objetos/fig19.jpg" alt="Imagem de uma cidade brasileira, com prédios altos, casas e ruas separando os bairros. É possível identificar um rio ao lado direito da cidade. ">
+                                <figcaption>Figura 18 – Fronteiras urbanas <br>
+
+                                    Fonte: Prandi (c2015) 
+                                </figcaption>
+                            </figure>
+                    </div>
+                    <!-- fim conteudo modal f-urbanas -->
+                    
+                    <!-- inicio conteudo modal f-culturais -->
+                    
+                    <div class="conteudo_f-culturais">
+                        <h2>Fronteiras culturais</h2>
+                        <img src="../../img/img_globalizacao.png" style="float: left;" alt="">
+                       <p> Anteriormente, você estudou como a globalização influencia o dia a dia de todas as populações, muito além de ser uma forma ampliada de comércio e de trocas de consumo. A globalização também determina formas de as pessoas vestirem-se, agirem, pensarem e de comportarem-se diante de assuntos sociais e políticos, formando, assim, uma forma única universal de enxergar as sociedades.  </p>
+                       <p> Assim, a globalização permite que as pessoas acessem culturas distintas e também incluam em sua própria cultura hábitos e costumes de outros lugares bem distantes de seu país. Além disso, ela permite tornar notícias e acontecimentos universais, ou seja, podemos saber o que está ocorrendo em cada parte do mundo, tendo uma visão única de todos os povos. Dessa forma, podemos pensar em uma troca cultural, em incluir e excluir hábitos e costumes em determinadas populações e etnias. </p>
+                       <p> As fronteiras culturais existem, pois os indivíduos diferenciam-se também por questões culturais e, em alguns casos, agrupam-se por essas proximidades culturais. Na prática, podemos refletir sobre o exercício de deslocamento de pessoas, como as migrações. Essas pessoas não podem ultrapassar limites urbanos sem serem identificadas, devendo justificar sua travessia entre países, pois sempre serão barradas nas fronteiras. Há pouco tempo temos presenciado dentro de territórios distintos essa possível quebra de fronteiras. </p>
+                       <p> Desse modo, as fronteiras culturais podem carregar uma simbologia, porque não há fronteiras físicas que possam ser vistas. O livre acesso às conexões de internet, um dos grandes processos de globalização, influencia no modo de incluir a moda de roupas, marcas famosas, consumo de alimento, acesso a sites, leituras, músicas etc. </p>
+                       <p> Vamos pensar agora em um exemplo dessas fronteiras culturais, por mais que o deslocamento de pessoas dentro de um mesmo país, como o Brasil, seja comum. Existem agrupamentos de costumes, hábitos que são determinados dentro de fronteiras. Temos acesso em todo o território do Brasil às festividades de São João, por exemplo, em que, nos meses de junho, podemos observar a grande comemoração em torno dessa grandiosa festa. Temos, por meio da internet, acesso ao que ocorre no nordeste do país; acesso às comidas típicas em vários estados. Mas a identidade cultural, a simbologia, está vinculada ao território específico, quebrando, de um certo ponto vista, a fronteira, mas temos a consciência de que essa festa típica faz parte de um determinado povo, de uma determinada cultura. </p>
+                       <p> As fronteiras são formações simbólicas, ou seja, não se pode tocar nem as ver como um objeto, mas elas existem. </p>
+                       
+                        <figure>
+                            <img src="../03/img/fig19.jpg" alt="">
+                            <p class="visually-hidden no-print">Imagem do mapa do Brasil pintado na cor verde. Posicionada ao sul está a figura de um homem tomando chimarrão, bebida típica dessa região; no centro há a figura de um homem negro; posicionada ao norte está a figura de um indígena; e, por último, ao nordeste há um homem com vestimentas típicas da região, como lenço vermelho no pescoço e chapéu de “cangaceiro”. </p>
+                            <figcaption>Figura 19 – Fronteiras culturais <br>
+
+                                Fonte: Silva (2013) 
+                            </figcaption>
+                        </figure>
+
+
+                    </div>
+
+                    <!-- fim conteudo modal f-culturais -->
+
+                    <!-- inicio conteudo modal juventude -->
+                    
+                    <!-- fim conteudo modal juventude -->
+
+                    <div class="caixa icone praticar">
+                        Acesse o caça-palavras e pratique o que você aprendeu sobre territórios, fronteiras urbanas e fronteiras culturais. 
+                    </div>
                 </div>
-
-
-
-
-
             </div>
 
             
@@ -1391,6 +1630,7 @@
                 <img src="../../assets/img/vetor-bg-topo.png" class="rellax detalhe2 no-print" data-rellax-speed="1"
                     data-rellax-zindex="10" alt="" style="z-index: 1"> -->
                 <div class="container">
+                    <h2>Questões ambientais </h2>
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             
@@ -1413,7 +1653,7 @@
 
 
                     </div>
-                        <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo </p>
+                        <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo.</p>
                         <div class="timeline no-print">
                             <img data-bs-toggle="modal" data-bs-target="#modal-timeline-1"
                                 class="timeline__img timeline__img--primeira" src="../4_questoes_ambientais/04/img/timeline-img01.png" alt="">
@@ -1671,7 +1911,9 @@
 
                         <p>Observe, a seguir, a tirinha do personagem Armandinho. </p><br><br>
                         <figure>
-                            <a href="../4_questoes_ambientais/04/img/fig20.jpg" target="_blank"><img src="../4_questoes_ambientais/04/img/fig20.jpg" alt=""></a>
+                            <a href="../4_questoes_ambientais/04/img/fig20.jpg" class="no-print" target="_blank"><img src="../4_questoes_ambientais/04/img/fig20.jpg" alt=""></a>
+                            <img src="../4_questoes_ambientais/04/img/fig20.jpg" class="text-center d-block img-fluid print visually-hidden" alt="">
+
                             <figcaption>
                                 Figura 20 – Água é um bem finito <br>
                                 Fonte: Rossi (2023)
@@ -1750,7 +1992,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="caixa icone pergunta">
+                        <div class="caixa icone dica">
                             <p><strong>Você já fez alguma dessas ações?</strong>
                                 <br>Se sim, existem formas de evitá-las, como guardar o óleo
                                 de cozinha em uma garrafa e o levar até uma cooperativa que possa o transformar em
@@ -1763,17 +2005,17 @@
                                 farmácias que fazem a coleta. Hoje em dia, é possível encontrar informações sobre ações
                                 que contribuam para a preservação do meio ambiente e também para que a sociedade siga
                                 existindo e se desenvolvendo harmoniosamente. </p>
-                                
-                            <p>Porém essas atitudes mencionadas de nada resolverão se não estiverem alinhadas com outras
-                                atividades que são responsáveis, em maior grau, pela poluição, como é o caso das <a
-                                tabindex="0" data-bs-trigger="focus"
-                                data-bs-original-title="" title="" role="button"  data-bs-toggle="popover"
-                                    class="tooltiper" 
-                                    data-bs-content="A monocultura se baseia na técnica do cultivo de somente uma cultura num mesmo campo específico, onde toda a cobertura vegetal é retirada. Após é realizado no solo o plantio de um único produto que será cultivado naquela área específica. Além disso é utilizado uma grande quantia de agrotóxicos, o que provoca inúmeros impactos ambientais.">monoculturas</a>.
-                                As monoculturas, no Brasil, são consideradas uma das maiores responsáveis pela poluição,
-                                devido ao seu consumo e modificação do solo e do ciclo da água. </p>
-                                
-                        </div>
+                            
+                        </div>    
+                        <p>Porém essas atitudes mencionadas de nada resolverão se não estiverem alinhadas com outras
+                            atividades que são responsáveis, em maior grau, pela poluição, como é o caso das <a
+                            tabindex="0" data-bs-trigger="focus"
+                            data-bs-original-title="" title="" role="button"  data-bs-toggle="popover"
+                                class="tooltiper" 
+                                data-bs-content="A monocultura se baseia na técnica do cultivo de somente uma cultura num mesmo campo específico, onde toda a cobertura vegetal é retirada. Após é realizado no solo o plantio de um único produto que será cultivado naquela área específica. Além disso é utilizado uma grande quantia de agrotóxicos, o que provoca inúmeros impactos ambientais.">monoculturas</a>.
+                            As monoculturas, no Brasil, são consideradas uma das maiores responsáveis pela poluição,
+                            devido ao seu consumo e modificação do solo e do ciclo da água. </p>
+                            
 
                     <div class="caixa icone atencao">
                         <p>O ser humano polui não só a água com ações rotineiras do dia a dia como também o ar, que é
@@ -1786,7 +2028,7 @@
                         usadas que causam a poluição do ar? Os aerossóis, as poeiras de indústrias, solventes,
                         hidrocarbonetos, queimadas, produção de energia elétrica e ácidos são substâncias que contribuem
                         para o impacto ambiental. Observe as duas imagens a seguir. </p>
-                    <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> nas setas para visualizar o conteúdo </p>
+                    <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> nas setas para visualizar o conteúdo.</p>
                     <br><br>
                     <div class="no-print">
                         <div id="carouselId" class="carousel slide sesc d-none d-md-block" data-bs-ride="" aria-hidden="true">
@@ -1832,23 +2074,20 @@
                             <a href="../4_questoes_ambientais/04/img/slide01.png" target="_blank"><img src="../4_questoes_ambientais/04/img/slide01.png" class="img-fluid" alt="First slide"></a>
                             <figcaption>
                                 Figura 21 – Poluição atmosférica <br>
-                                Fonte: &lt;http://www.logicambiental.com.br/poluicao-atmosferica/>. Acesso em:
-                                10 mar. 2022.
+                                Fonte: Vasconcelos (c2022) 
                             </figcaption>
                         </figure><br>
                         <figure>
                             <a href="../4_questoes_ambientais/04/img/slide02.png" target="_blank"><img src="../4_questoes_ambientais/04/img/slide02.png" class="img-fluid" alt="Second slide"></a>
                             <figcaption>
                                 Figura 22 – O vulcão como fonte natural de poluição <br>
-                                Fonte:
-                                &lthttps://www.tempo.pt/noticias/ciencia/o-vulcao-como-fonte-natural-de-poluicao-doencas-saude-oms.html>.
-                                Acesso em: 2 maio 2022.
+                                Fonte: Gonçalves (2021) 
                             </figcaption>
                         </figure>
                     </div>
                     <div class="visually-hidden print">
                         <figure>
-                            <img src="../4_questoes_ambientais/04/img/slide02.png" class="img-fluid" alt="First slide">
+                            <img src="../4_questoes_ambientais/04/img/slide01.png" class="img-fluid" alt="First slide">
                             <figcaption>
                                 Figura 21 – Poluição atmosférica <br>
                                 Fonte: &lt;http://www.logicambiental.com.br/poluicao-atmosferica/>. Acesso em: 10 mar.
@@ -1894,7 +2133,7 @@
 
                 <div class="bloco estilo2">
                     <div class="container">
-                        <h3 id="titulo9">Ética ambiental</h3>
+                        <h2 id="titulo9">Ética ambiental</h2>
                         <p>Você já ouviu falar em ética ambiental? Sabe o que significa? Independentemente de já ter
                             ouvido falar ou não sobre seu significado, esse é um termo que está presente não só nas
                             teorias, mas vive nas ações práticas. A ética ambiental é um conceito filosófico, criado na
@@ -1987,8 +2226,6 @@
                             para se repensar o modo de agir humano perante a natureza. A ética ambiental nada mais é do
                             que a ampliação do conceito de ética, já que estende o comportamento do ser humano para além
                             de si mesmo no meio social e busca estabelecer essa relação com a natureza. </p>
-                            <br><br><br>
-                    
                 
                     <p>A imagem abaixo fará você refletir sobre a importância de se estabelecer uma ética ambiental
                         devido a forma como o ser humano se relaciona com o meio em que vive, onde acaba esquecendo de
@@ -2038,14 +2275,14 @@ Fonte: Casa de Notícias (2021)
                             <p>3. Justiça social e econômica </p>
                             <p>4. Democracia, não violência e paz</p>
                         </div>
-                        <div class="caixa">
+                        <div class="caixa" style="color: #fff;">
                             Para você ler a carta na íntegra, basta acessar o <i>site</i> do Ministério do Meio Ambiente.
                         </div>
                         <p>Conforme visto até o momento, o cuidado com o meio ambiente é essencial para a preservação da
                             vida em sociedade e do planeta. Por isso, alertas e medidas são tomados para que a natureza
                             seja preservada. Para conhecer e entender melhor sobre a conservação do meio ambiente, a
                             seguir serão abordadas as <strong>reservas naturais</strong>. </p>
-                    <h3 id="titulo11">Reservas naturais</h3>
+                    <h2 id="titulo11">Reservas naturais</h2>
                     <p>As reservas naturais são áreas protegidas pelo governo, onde se deve preservar e cuidar da flora,
                         da fauna e da vida selvagem. Existem muitas reservas naturais espalhadas pelo mundo e cada país
                         tem um método de classificação dessas reservas. Por exemplo, no Brasil, são chamadas de
@@ -2065,7 +2302,7 @@ Fonte: Casa de Notícias (2021)
                             cultural e natural do Brasil, sendo espaços protegidos por lei. </p>
                     </div>
 
-                        <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo </p>
+                        <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo.</p>
                         <!-- <div class="visually-hidden no-print">
                             <p>Com a Lei <strong>nº 9.985</strong>, de 18 de julho de 2000, foi criado o órgão
                                 <strong>Sistema Nacional de Unidades de Conservação da Natureza</strong> (SNUC), que é
@@ -2156,7 +2393,7 @@ Fonte: Casa de Notícias (2021)
                         </div>
                     </div>
 
-                    <div class="visually-hidden">
+                    <div class="visually-hidden print">
                         <p><strong>Sustentabilidade social</strong> </p>
                         <p>Caracteriza-se pelas condições de vida das pessoas na sociedade, como saúde, educação, lazer,
                             violência, entre outros aspectos. </p>
@@ -2178,7 +2415,7 @@ Fonte: Casa de Notícias (2021)
                         como você já sabe, eles são finitos e essenciais para a vida humana. </p>
                 <!-- <div class="container-fluid parallax paisagem">
                 </div> -->
-                    <h3 id="titulo12">Encerramento </h3>
+                    <h2 id="titulo12">Encerramento </h2>
                     <p>Neste módulo, você aprendeu que vive em um ambiente conectado e que, se observar o planeta em que
                         vive, pode vincular pessoas, grupos, populações e culturas. Esses indivíduos podem estar
                         separados por territórios e limitados por fronteiras. </p>
@@ -2270,60 +2507,87 @@ Fonte: Casa de Notícias (2021)
             <!-- Fim pagina 6 -->
             <!-- Pagina 7 -->
 
-            <div class="pagina">
+            <div class="pagina estiloReferencias">
                 <div class="container">
                     <h2 id="titulo13">Referências </h2>
-                    <p>166.º #DESAFIO - Água, cada gota importa! <strong>Juntos no Quintal</strong>, 1.º setembro 2021. Disponível em: https://www.juntosnoquintal.com.br/2021/09/166o-desafio-agua-cuide-deste-bem/. Acesso em: 10 mar. 2022.  </p>
-                    <p>A MORTE do presidente do Haiti e o neocolonialismo. <strong>Instituto Humanitas Unisinos</strong>, 12 julho 2021. Disponível em: https://www.ihu.unisinos.br/78-noticias/610998-a-morte-do-presidente-do-haiti-e-o-neocolonialismo. Acesso em: 16 mar. 2022. </p>
+                    <p>A MORTE do presidente do Haiti e o neocolonialismo. <strong>Instituto Humanitas Unisinos</strong>, 12 jul 2021. Disponível em: https://www.ihu.unisinos.br/78-noticias/610998-a-morte-do-presidente-do-haiti-e-o-neocolonialismo. Acesso em: 16 mar. 2022. </p>
                     <p>A OBRA “Paisagem com touro” de <strong>Tarsila do Amaral</strong> é destaque na coleção da Casa Roberto Marinho no Rio de Janeiro. Tarsila do Amaral, c2022. Disponível em: https://tarsiladoamaral.com.br/obra-paisagem-com-touro-de-tarsila-do-amaral-e-destaque-na-colecao-da-casa-roberto-marinho-no-rio-de-janeiro/. Acesso em: 16 mar. 2022  </p>
                     <p>ÁREAS Protegidas. <strong>SEMMAS</strong>, c2013. Disponível em: https://semmas.manaus.am.gov.br/areas-protegidas/. Acesso em: 29 abr. 2022.  </p>
-                    <p>ASSESSORIA. Livro de passatempos ensina ciência e educação ambiental a crianças. <strong>Casa de Notícias</strong>, 22 abril 2021. Disponível em: https://www.casadenoticias.com.br/noticias/34195-livro-de-passatempos-ensina-ciencia-e-educacao-ambiental-a-criancas. Acesso em: 14 mar. 2022. </p>
-                    <p>BARBOSA, Catarina. Quilombolas lutam pela terra contra gigante do agronegócio e pedem o fim da violência no Pará. <strong>Brasil de Fato</strong>, Belém (PA), 7 julho 2021. Disponível em: https://www.brasildefato.com.br/2021/07/07/quilombolas-lutam-pela-terra-contra-gigante-do-agronegocio-e-pedem-o-fim-da-violencia-no-para. Acesso em: 30 mar. 2022.  </p>
-                    <p>BECK, Alexandre. Armandinho. <strong>NSC Total</strong>, 23 novembro 2017. Disponível em: https://www.nsctotal.com.br/noticias/confira-a-tira-do-armandinho-desta-quinta-feira-0. Acesso em: 3 maio 2022. </p>
+                    
+                    <p>BARBOSA, Catarina. Quilombolas lutam pela terra contra gigante do agronegócio e pedem o fim da violência no Pará. <strong>Brasil de Fato</strong>, Belém (PA), 7 jul 2021. Disponível em: https://www.brasildefato.com.br/2021/07/07/quilombolas-lutam-pela-terra-contra-gigante-do-agronegocio-e-pedem-o-fim-da-violencia-no-para. Acesso em: 30 mar. 2022.  </p>
+                    <p>BECK, Alexandre. Armandinho. <strong>NSC Total</strong>, 23 nov 2017. Disponível em: https://www.nsctotal.com.br/noticias/confira-a-tira-do-armandinho-desta-quinta-feira-0. Acesso em: 3 maio 2022. </p>
                     <p>BERCITO, Diogo. Europa recebeu 1 milhão de imigrantes da África subsaariana desde 2010. <strong>Folha de S. Paulo</strong>, 22 mar. 2018. Disponível em: https://www1.folha.uol.com.br/mundo/2018/03/europa-recebeu-1-milhao-de-imigrantes-da-africa-subsaariana-desde-2010.shtml. Acesso em: 3 mar. 2022.  </p>
+                    
                     <p>BRASIL. Congresso Nacional. Câmara dos Deputados. Parlamento Jovem Brasileiro. <strong>Estatuto da Juventude completa oito anos</strong>. Brasília, 5 ago. 2021. Disponível em: https://www2.camara.leg.br/a-camara/programas-institucionais/experiencias-presenciais/parlamentojovem/noticias_para_voce/estatuto-da-juventude-completa-oito-anos. Acesso em: 22 abr. 2022. </p>
-                    <p>BRASIL. Decreto n.º 7.747, de 5 de junho de 2012. Institui a Política Nacional de Gestão Territorial e Ambiental de Terras Indígenas – PNGATI, e dá outras providências. Disponível em: http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7747.htm. Acesso em: 29 abr. 2022. </p>
+                    <p>BRASIL. Decreto nº 7.747, de 5 de junho de 2012 Institui a Política Nacional de Gestão Territorial e Ambiental de Terras Indígenas – PNGATI, e dá outras providências. Disponível em: http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7747.htm. Acesso em: 29 abr. 2022. </p>
                     <p>BRASIL. Ministério do Meio Ambiente. <strong>A Carta da Terra</strong>. Disponível em: https://antigo.mma.gov.br/educacao-ambiental/pol%C3%ADtica-nacional-de-educa%C3%A7%C3%A3o-ambiental/documentos-referenciais/item/8071-carta-da-terra.html. Acesso em: 17 mar. 2022.  </p>
-                    <p>CARNEIRO, Mônica. Indígenas Kiriri e Kaingang serão os primeiros a utilizar o Selo Indígenas do Brasil em seus produtos. <strong>Funai</strong>, 1º dezembro 2015. Disponível em: https://www.gov.br/funai/pt-br/assuntos/noticias/2015/indigenas-kiriri-e-kaingang-serao-os-primeiros-a-utilizar-o-selo-indigenas-do-brasil-em-seus-produtos. Acesso em: 29 mar. 2022.  </p>
-                    <p>CATARATAS do Iguaçu celebram o oitavo ano como uma das Maravilhas da Natureza. <strong>Gaúcha ZH</strong>, 10 novembro 2019. Disponível em: https://gauchazh.clicrbs.com.br/comportamento/viagem/noticia/2019/11/cataratas-do-iguacu-celebram-oitavo-ano-como-uma-das-maravilhas-da-natureza-ck2tfwicg002c01phpcjrifll.html. Acesso em: 16 mar. 2022.  </p>
-                    <p>COELHO, Marcos de Amorim; TERRA, Lygia. <strong>Geografia Geral e do Brasil</strong>: Moderna. São Paulo: 2003.  </p>
+                    <p>CABRAL, Umberlândia; GOMES, Irene. Brasil tem 1,7 milhão de indígenas e mais da metade deles vive na Amazônia Legal. <strong>Agência IBGE Notícias</strong>, 7 ago. 2023. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/37565-brasil-tem-1-7-milhao-de-indigenas-e-mais-da-metade-deles-vive-na-amazonia-legal. Acesso em: 23 ago. 2023. </p>
+                    
+                    <p>CARNEIRO, Mônica. Indígenas Kiriri e Kaingang serão os primeiros a utilizar o Selo Indígenas do Brasil em seus produtos. <strong>Funai</strong>, 1º dez 2015. Disponível em: https://www.gov.br/funai/pt-br/assuntos/noticias/2015/indigenas-kiriri-e-kaingang-serao-os-primeiros-a-utilizar-o-selo-indigenas-do-brasil-em-seus-produtos. Acesso em: 29 mar. 2022.  </p>
+                    <p>CARVALHO, Israel de. <i>In</i>: ACAMPAMENTO indígena Terra Livre, considerado o maior do país, começa em Brasília. <strong>G1</strong>, 4 abr. 2022. Disponível em: https://g1.globo.com/df/noticia/2022/04/04/acampamento-indigena-terra-livre-considerado-o-maior-do-pais-comeca-em-brasilia.ghtml. Acesso em: 13 set. 2023. </p>
+                    
+                    <p>CATARATAS do Iguaçu celebram o oitavo ano como uma das Maravilhas da Natureza. <strong>Gaúcha ZH</strong>, 10 nov 2019. Disponível em: https://gauchazh.clicrbs.com.br/comportamento/viagem/noticia/2019/11/cataratas-do-iguacu-celebram-oitavo-ano-como-uma-das-maravilhas-da-natureza-ck2tfwicg002c01phpcjrifll.html. Acesso em: 16 mar. 2022.  </p>
+                    <p>COELHO, Marcos de Amorim; TERRA, Lygia. Geografia geral e do Brasil. São Paulo: Moderna, 2003.</p>                    
+                    
                     <p>COMPARTILHAMENTO de localização de carro. <strong>Freepik</strong>, c2010-2022. Disponível em: https://img.freepik.com/free-vector/man-tracking-taxi-driver-cab-tablet-map-guy-using-device-car-location-with-gps-system-app-male-checking-navigation-smartphone-booking-taxi-cartography-display-flat-illustration_74855-20647.jpg?t=st=1651585705~exp=1651586305~hmac=2b4d0cb6c52ece4caa51ab964a5aa50eeedca207de077dec5b93df1f13f23663&w=1380. Acesso em: 3 maio 2022. </p>
                     <p>CRISÓSTOMO, Laina. Nossa história recontada por nós: Viva Zumbi! Viva Palmares! Aqualtune? Quem é essa? <strong>Tamo Juntas</strong>, 22 abril 2020. Disponível em: https://tamojuntas.org.br/nossa-historia-recontada-por-nos-viva-zumbi-viva-palmares-aqualtune-quem-e-essa/. Acesso em: 28 abr. 2022. </p>
                     <p>CRUZ, Jaíne Quele. Terras indígenas de RO com presença de povos isolados estão entre as mais desmatadas em 2021. <strong>G1</strong>, 27 janeiro 2022. Disponível em: https://g1.globo.com/ro/rondonia/noticia/2022/01/27/terras-indigenas-de-ro-com-presenca-de-povos-isolados-estao-entre-as-mais-desmatadas-em-2021-diz-instituto.ghtml. Acesso em: 1.º abr. 2022.  </p>
-                    <p>EM 2019, terras indígenas foram invadidas de modo ostensivo de Norte a Sul do Brasil. <strong>Conselho indigenista missionário</strong>, 29 setembro 2020. Disponível em: https://cimi.org.br/2020/09/em-2019-terras-indigenas-invadidas-modo-ostensivo-brasil/. Acesso em: 29 mar. 2022.  </p>
+                    <p>DESMATAMENTO na Amazônia cai 54% de janeiro a maio, mas é o 4º maior desde 2008. <strong>Imazon</strong>, c2020. Disponível em: https://imazon.org.br/imprensa/desmatamento-na-amazonia-cai-54-de-janeiro-a-maio-mas-e-o-4o-maior-desde-2008/. Acesso em: 13 set. 2023. </p>
+
+                    <p>EM 2019, terras indígenas foram invadidas de modo ostensivo de Norte a Sul do Brasil. <strong>Conselho indigenista missionário</strong>, 29 set 2020. Disponível em: https://cimi.org.br/2020/09/em-2019-terras-indigenas-invadidas-modo-ostensivo-brasil/. Acesso em: 29 mar. 2022.  </p>
+                    <p>FERREZ, Marc. In: GARCIA, Maria Fernanda. A princesa escravizada no Brasil que lutou pela liberdade de seu povo. <strong>Observatório do Terceiro Setor</strong>, 9 ago. 2019. Disponível em: https://observatorio3setor.org.br/carrossel/a-princesa-escravizada-no-brasil-que-lutou-pela-liberdade-de-seu-povo/. Acesso em: 13 set. 2023. </p>
+                    
                     <p>GOMES, Rodrigo Rodrigues Freire. Latitude e longitude. <strong>Info Escola</strong>, c2006-2022. Disponível em: https://www.infoescola.com/geografia/latitude-e-longitude/. Acesso em: 12 mar. 2022.  </p>
-                    <p>GONÇALVES, Paula. O vulcão como fonte natural de poluição. <strong>Tempo.pt</strong>, 18 abril 2021. Disponível em: https://www.tempo.pt/noticias/ciencia/o-vulcao-como-fonte-natural-de-poluicao-doencas-saude-oms.html. Acesso em: 2 maio 2022. </p>
+                    <p>GONÇALVES, Paula. O vulcão como fonte natural de poluição. <strong>Tempo.pt</strong>, 18 abr 2021. Disponível em: https://www.tempo.pt/noticias/ciencia/o-vulcao-como-fonte-natural-de-poluicao-doencas-saude-oms.html. Acesso em: 2 maio 2022. </p>
+                    <p>GRILAGEM avança e ocupa quase metade da Terra Indígena Pirititi, onde há povos isolados em RR. <strong>G1</strong>, 29 mar. 2021. Disponível em: https://g1.globo.com/rr/roraima/noticia/2021/03/29/grilagem-avanca-e-ocupa-quase-metade-da-terra-indigena-pirititi-onde-ha-povos-isolados-em-rr.ghtml. Acesso em: 29 mar. 2022. </p>
+                    
                     <p>III JORNADA de História dos Sertões. <strong>SIG Eventos (UFRN)</strong>, c2006. Disponível em: https://sigeventos.ufrn.br/evento/jornada/palestrante/245. Acesso em: 28 abr. 2022. </p>
-                    <p>IMIGRANTE brasileira morre abandonada no deserto dos EUA durante a travessia. <strong>G1</strong>, 17 setembro 2021. Disponível em: https://g1.globo.com/mundo/noticia/2021/09/17/imigrante-brasileira-morre-abandonada-no-deserto-dos-eua-durante-travessia.ghtml. Acesso em: 16 mar. 2022.  </p>
+                    <p>IMIGRANTE brasileira morre abandonada no deserto dos EUA durante a travessia. <strong>G1</strong>, 17 set 2021. Disponível em: https://g1.globo.com/mundo/noticia/2021/09/17/imigrante-brasileira-morre-abandonada-no-deserto-dos-eua-durante-travessia.ghtml. Acesso em: 16 mar. 2022.  </p>
+                    
                     <p>IMPACTOS Ambientais. <strong>Toda Matéria</strong>, c2011-2022. Disponível em: https://www.todamateria.com.br/impactos-ambientais/. Acesso em: 22 mar. 2022.  </p>
-                    <p>MACEDO, Márcia. Planeta Terra. Único planeta onde existe água no estado líquido. <strong>Educa Mais Brasil</strong>, 10 abril 2019. Disponível em: https://www.educamaisbrasil.com.br/enem/geografia/planeta-terra. Acesso em: 21 mar. 2022.  </p>
+                    <p>LIVRO de passatempos ensina ciência e educação ambiental a crianças. <strong>Casa de Notícias</strong>, 22 abr. 2021. Disponível em: https://www.casadenoticias.com.br/noticias/34195-livro-de-passatempos-ensina-ciencia-e-educacao-ambiental-a-criancas. Acesso em: 14 mar. 2022. </p>
+                    
+                    <p>MACEDO, Márcia. Planeta Terra.<strong>Educa Mais Brasil</strong>, 10 abr 2019. Disponível em: https://www.educamaisbrasil.com.br/enem/geografia/planeta-terra. Acesso em: 21 mar. 2022.  </p>
                     <p>MAGALHÃES, Lana. Poluição do Ar. <strong>Toda Matéria</strong>, c2011-2022. Disponível em: https://www.todamateria.com.br/poluicao-do-ar/. Acesso em: 22 mar. 2022.  </p>
-                    <p>MALDONADO, Helder. K-pop cresce no Brasil com bandas, canais de vídeo e e-commerce. <strong>R7</strong>, 25 agosto 2019. Disponível em: https://entretenimento.r7.com/musica/k-pop-cresce-no-brasil-com-bandas-canais-de-video-e-e-commerce-05102019. Acesso em: 4 abr. 2022.  </p>
-                    <p>MARTINS, Victoria. Givânia da Silva, educação e ação política como caminho para dias melhores. <strong>Instituto Socioambiental (ISA)</strong>, 26 julho 2021. Disponível em: https://www.socioambiental.org/pt-br/noticias-socioambientais/givania-da-silva-educacao-e-acao-politica-como-caminho-para-dias-melhores. Acesso em: 28 abr. 2022. </p>
-                    <p>MONITORAMENTO de terras quilombolas. <strong>Comissão pró-índio de São Paulo</strong>, 10 março 2017. Disponível em: https://cpisp.org.br/monitoramento-terras-quilombolas-i-em-fevereiro-processos-de-titulacao-de-cinco-comunidades-registram-avancos/. Acesso em: 30 mar. 2022.  </p>
+                    <p>MALDONADO, Helder. K-pop cresce no Brasil com bandas, canais de vídeo e e-commerce. <strong>R7</strong>, 25 ago 2019. Disponível em: https://entretenimento.r7.com/musica/k-pop-cresce-no-brasil-com-bandas-canais-de-video-e-e-commerce-05102019. Acesso em: 4 abr. 2022.  </p>
+                    <p>MARTINS, Victoria. Givânia da Silva, educação e ação política como caminho para dias melhores. <strong>Instituto Socioambiental (ISA)</strong>, 26 jul 2021. Disponível em: https://www.socioambiental.org/pt-br/noticias-socioambientais/givania-da-silva-educacao-e-acao-politica-como-caminho-para-dias-melhores. Acesso em: 28 abr. 2022. </p>
+                    <p>MONITORAMENTO de terras quilombolas. <strong>Comissão Pró-índio de São Paulo</strong>, 10 mar 2017. Disponível em: https://cpisp.org.br/monitoramento-terras-quilombolas-i-em-fevereiro-processos-de-titulacao-de-cinco-comunidades-registram-avancos/. Acesso em: 30 mar. 2022.  </p>
+                    
                     <p>MORETIN, Antônio Miguel. <strong>As juventudes</strong>: conceitos sob as perspectivas sociológicas. Edição n.º 9, vol. 1, jan./dez. 2019. Disponível em: http://www.uel.br/revistas/lenpes-pibid/. Acesso em: 17 maio 2022. </p>
-                    <p>NÚMERO de novos imigrantes cresce 24,4% no Brasil em dez anos. <strong>Agência Brasil</strong>, 7 dezembro 2021. Disponível em: https://agenciabrasil.ebc.com.br/geral/noticia/2021-12/numero-de-novos-imigrantes-cresce-244-no-brasil-em-dez-anos#:~:text=Atualmente%201%2C3%20milh%C3%A3o%20de%20imigrantes%20residem%20no%20Brasil.,26%2C5%20mil%20em%202020. Acesso em: 25 mar. 2022.  </p>
-                    <p>O que são as matas ciliares? <strong>WWF</strong>, [s.d.]. Disponível em: https://www.wwf.org.br/natureza_brasileira/questoes_ambientais/matas_ciliares/. Acesso em: 9 mar. 2022.  </p>
+                    <p>NÚMERO de novos imigrantes cresce 24,4% no Brasil em dez anos. <strong>Agência Brasil</strong>, 7 dez 2021. Disponível em: https://agenciabrasil.ebc.com.br/geral/noticia/2021-12/numero-de-novos-imigrantes-cresce-244-no-brasil-em-dez-anos#:~:text=Atualmente%201%2C3%20milh%C3%A3o%20de%20imigrantes%20residem%20no%20Brasil.,26%2C5%20mil%20em%202020. Acesso em: 25 mar. 2022.  </p>
+                    <p>O QUE são as matas ciliares? <strong>WWF</strong>, [s.d.]. Disponível em: https://www.wwf.org.br/natureza_brasileira/questoes_ambientais/matas_ciliares/. Acesso em: 9 mar. 2022.  </p>
+                    
                     <p>PARALELOS e meridianos. <strong>Toda Matéria</strong>, c2011-2022. Disponível em: https://www.todamateria.com.br/paralelos-e-meridianos/. Acesso em: 18 mar. 22. </p>
-                    <p>PEREIRA, Alexandro. <strong>Comunidade Palimiú, na Terra Indígena Yanomami, fica às margens do rio Uraricoera</strong>. 12 maio 2021. 1 fotografia. Disponível em: https://g1.globo.com/rr/roraima/noticia/2021/05/17/comunidade-palimiu-vive-tensao-apos-ataques-de-garimpeiros-na-terra-indigena-yanomami-fotos.ghtml. Acesso em: 14 mar. 2022. </p>
+                    <P>PEREIRA, Alexandro. In: COMUNIDADE Palimiú vive tensão após ataques de garimpeiros na Terra Indígena Yanomami; Fotos. <strong>G1</strong>, 12 maio 2021. Disponível em: https://g1.globo.com/rr/roraima/noticia/2021/05/17/comunidade-palimiu-vive-tensao-apos-ataques-de-garimpeiros-na-terra-indigena-yanomami-fotos.ghtml. Acesso em: 14 mar. 2022. </P>
+                    
                     <p>PESSOA, Marcos. As tribos indígenas no estado do Amazonas. <strong>No Amazonas é assim</strong>, 3 maio 2013. Disponível em: https://noamazonaseassim.com/as-tribos-indigenas-do-estado-do-amazonas/. Acesso em: 3 maio 2022. </p>
-                    <p>PESSOAS sem pátria e terra: a crise mundial de migrantes e refugiados em 2021. <strong>CNN Brasil</strong>, 26 dezembro 2021. Disponível em: https://www.cnnbrasil.com.br/internacional/pessoas-sem-patria-e-terra-a-crise-mundial-de-migrantes-e-refugiados-em-2021/. Acesso em: 16 mar. 2022.  </p>
-                    <p>POPULAÇÃO indígena. <strong>Educa criança</strong>, c2022. Disponível em https://educa.ibge.gov.br/criancas/brasil/nosso-povo/20507-indigenas.html#:~:text=De%20acordo%20com%20o%20Censo,a%20l%C3%ADngua%20ind%C3%ADgena%20(57%25). Acesso em: 1º abr. 2022.  </p>
-                    <p>PRIMEIRA indígena a se formar em Odontologia pela UFRGS, Jessica Vaz, participa da conferência de abertura. <strong>Salão UFRGS</strong>, 13 setembro 2019. Disponível em: https://www.ufrgs.br/salaoufrgs/2019/09/13/primeira-indigena-a-se-formar-em-odontologia-pela-ufrgs-jessica-vaz-participa-da-conferencia-de-abertura/. Acesso em: 4 abr. 2022.    </p>
+                    <p>PESSOAS sem pátria e terra: a crise mundial de migrantes e refugiados em 2021. <strong>CNN Brasil</strong>, 26 dez 2021. Disponível em: https://www.cnnbrasil.com.br/internacional/pessoas-sem-patria-e-terra-a-crise-mundial-de-migrantes-e-refugiados-em-2021/. Acesso em: 16 mar. 2022.  </p>
+                    <p>POPULAÇÃO indígena. <strong>IBGE Educa</strong>, c2022. Disponível em https://educa.ibge.gov.br/criancas/brasil/nosso-povo/20507-indigenas.html#:~:text=De%20acordo%20com%20o%20Censo,a%20l%C3%ADngua%20ind%C3%ADgena%20(57%25). Acesso em: 1º abr. 2022.  </p>
+                    <P>PRANDI, Jair. Fotos de Foz do Iguaçu – PR. <strong>Blog Cidades em Fotos</strong>, c2015. Disponível em: https://cidadesemfotos.blogspot.com/2013/01/fotos-de-foz-do-iguacu-pr.html. Acesso em: 13 set. 2023. </P>
+                    <p>PRIMEIRA indígena a se formar em Odontologia pela UFRGS, Jessica Vaz, participa da conferência de abertura. <strong>Salão UFRGS</strong>, 13 set 2019. Disponível em: https://www.ufrgs.br/salaoufrgs/2019/09/13/primeira-indigena-a-se-formar-em-odontologia-pela-ufrgs-jessica-vaz-participa-da-conferencia-de-abertura/. Acesso em: 4 abr. 2022.    </p>
                     <p>REDAÇÃO Beduka. Resumo da revolução industrial [origem, fases e consequências]. <strong>Beduka</strong>, 14 junho 2019. Disponível em: https://beduka.com/blog/materias/historia/resumo-da-revolucao-industrial/#2%C2%AA-revolu%C3%A7%C3%A3o-industrial. Acesso em: 29 abr. 2022. </p>
-                    <p>RÊGO, Tânia. Índios guaranis em área de proteção ambiental a pouco mais de 50km da cidade do Rio de Janeiro. <strong>Revista Cult</strong>, 22 agosto 2017. Disponível em: https://revistacult.uol.com.br/home/mapa-guarani-digital/. Acesso em: 3 maio 2022. </p>
-                    <p>RIBEIRO, Maurício Andrés. Impactos ambientais da atividade bélica. <strong>Ecologizar</strong>, 24 janeiro 2019. Disponível em: http://ecologizar.blogspot.com/2019/01/impactos-ambientais-da-atividade-belica.html#:~:text=Da%20mesma%20forma%20que%20as,e%20deterioram%20o%20meio%20ambiente. Acesso em: 14 abr. 2022.  </p>
-                    <p>RUAS, Carlos. Globalização. <strong>Um sábado qualquer</strong>, 8 janeiro 2009. Disponível em: https://www.umsabadoqualquer.com/35-globalizacao7/. Acesso em: 2 mar. 2022.  </p>
+                    <p>RÊGO, Tânia. Índios guaranis em área de proteção ambiental a pouco mais de 50km da cidade do Rio de Janeiro. <strong>Revista Cult</strong>, 22 ago 2017. Disponível em: https://revistacult.uol.com.br/home/mapa-guarani-digital/. Acesso em: 3 maio 2022. </p>
+                    <P>RESUMO da revolução industrial: conheça a origem, avanços tecnológicos, principais eventos e impactos na sociedade. <strong>Beduka</strong>, 14 jun. 2019. Disponível em: https://beduka.com/blog/materias/historia/resumo-da-revolucao-industrial/#2%C2%AA-revolu%C3%A7%C3%A3o-industrial. Acesso em: 29 abr. 2022. </P>
+
+                    <p>RIBEIRO, Maurício Andrés. Impactos ambientais da atividade bélica. <strong>Ecologizar</strong>, 24 jan 2019. Disponível em: http://ecologizar.blogspot.com/2019/01/impactos-ambientais-da-atividade-belica.html#:~:text=Da%20mesma%20forma%20que%20as,e%20deterioram%20o%20meio%20ambiente. Acesso em: 14 abr. 2022.  </p>
+                    <p>ROSSI, Silvana. 166º #DESAFIO – Água, cada gota importa! <strong>Juntos no Quintal</strong>, 23 mar. 2023. Disponível em: https://www.juntosnoquintal.com.br/2023/03/166o-desafio-agua-cuide-deste-bem/. Acesso em: 10 mar. 2022.  </p>
+                    <p>RUAS, Carlos. Globalização. <strong>Um sábado qualquer</strong>, 8 jan 2009. Disponível em: https://www.umsabadoqualquer.com/35-globalizacao7/. Acesso em: 2 mar. 2022.  </p>
+                    
                     <p>SANTOS, Arionauro da Silva. Charge desmatamento da Floresta. <strong>Arionauro Cartuns</strong>, 16 de dez. de 2021. Disponível em: http://www.arionaurocartuns.com.br/2021/12/charge-desmatamento-da-floresta_16.html. Acesso em: 12 mar. 2022.  </p>
                     <p>SANTOS, Milton. O dinheiro e o território. In: OLIVEIRA, Márcio P.; HAESBAERT, Rogério; MOREIRA, Ruy. <strong>Território, territórios</strong>: ensaios sobre o ordenamento territorial. Niterói: PPGEO/UFF, 2002.   </p>
+                    <p>SILVA, Flávia Cristina dos Santos. Hoje também é celebrado o Dia do Saci! <strong>Blog História e Memória Cultural</strong>, 31 out. 2013. Disponível em: http://historiadoraflavia.blogspot.com/2013_10_27_archive.html. Acesso em: 7 jul. 2023. </p>
+                    <p>SLAVE VOYAGES. <strong>Site do Slave Voyages</strong>, c2021. Explore the origins and forced relocations of enslaved africans across the atlantic world. Disponível em: https://www.slavevoyages.org/. Acesso em: 13 set. 2023. </p>
+
                     <p>SOUSA, Rafaela. Conflitos na África. <strong>Mundo Educação</strong>, c2022. Disponível em: https://mundoeducacao.uol.com.br/geografia/os-conflitos-na-africa.htm. Acesso em: 9 mar. 2022.  </p>
+                    <p>SOUZA, Thiago. Povos indígenas do Brasil: principais tribos, sua cultura e história. <strong>Toda Matéria</strong>, c2011-2023. Disponível em: https://www.todamateria.com.br/indios-brasileiros/. Acesso em: 13 set. 2023. </p>
+
                     <p>STEVANIM, Luiz Felipe. A luta dos quilombos hoje é para libertar a terra. Entrevista com Eurípedes Tunes. <strong>Radis/Fiocruz</strong>, 29 maio 2019. Disponível em https://radis.ensp.fiocruz.br/index.php/home/reportagem/a-luta-dos-quilombos-hoje-e-para-libertar-a-terra#:~:text=O%20Quilombo%20Saracura%20%C3%A9%20um,Era%20o%20ano%20de%201844. Acesso em: 30 mar. 2022. </p>
                     <p>TEIXEIRA, Renato. <strong>Paisagem</strong>. Disponível em:  https://www.vagalume.com.br/renato-teixeira/paisagem.html. Acesso em: 29 abr. 2022. </p>
                     <p>TERRAS Indígenas no Brasil. <strong>Instituto Socioambiental</strong>, 2012. Disponível em: https://img.socioambiental.org/v/publico/pibmirim/onde-vivem/terras_indigenas2peq.jpg.html. Acesso em: 2 maio 2022. </p>
-                    <p>TERRAS Indígenas do Brasil. <strong>Funai</strong>, 25 janeiro 2021. Disponível em:  http://mapas2.funai.gov.br/portal_mapas/pdf/brasil_indigena_11_2021.pdf. Acesso em: 4 maio 2022. </p>
-                    <p>TROMBINI, Maria Eugenia. Comunidade Quilombola Família Xavier, em Arapoti (PR), comemora reconhecimento pela Fundação Cultural Palmares. <strong>Terra de Direitos</strong>, 6 setembro 2018. Disponível em: https://terradedireitos.org.br/noticias/noticias/comunidade-quilombola-familia-xavier-em-arapoti-pr-comemora-reconhecimento-pela-fundacao-cultural-palmares/22905. Acesso em: 2 maio 2022. </p>
+                    <p>TERRAS Indígenas do Brasil. <strong>Funai</strong>, 25 jan 2021. Disponível em:  http://mapas2.funai.gov.br/portal_mapas/pdf/brasil_indigena_11_2021.pdf. Acesso em: 4 maio 2022. </p>
+                    <p>TROMBINI, Maria Eugenia. Comunidade Quilombola Família Xavier, em Arapoti (PR), comemora reconhecimento pela Fundação Cultural Palmares. <strong>Terra de Direitos</strong>, 6 set 2018. Disponível em: https://terradedireitos.org.br/noticias/noticias/comunidade-quilombola-familia-xavier-em-arapoti-pr-comemora-reconhecimento-pela-fundacao-cultural-palmares/22905. Acesso em: 2 maio 2022. </p>
                     <p>VASCONCELOS, Elizeu. Poluição Atmosférica. <strong>LogicAmbiental</strong>, c2022. Disponível em: http://www.logicambiental.com.br/poluicao-atmosferica/. Acesso em: 10 mar. 2022. </p>
-                    <p>ZIMMERMANN, Nils. Os cinco maiores problemas ambientais do mundo e suas soluções. <strong>DW Brasil</strong>, 13 outubro 2016. Disponível em: https://www.dw.com/pt-br/os-cinco-maiores-problemas-ambientais-do-mundo-e-suas-solu%C3%A7%C3%B5es/a-36024985. Acesso em: 21 mar. 2022.                     </p>
+                    <p>ZIMMERMANN, Nils. Os cinco maiores problemas ambientais do mundo e suas soluções. <strong>DW Brasil</strong>, 13 out 2016. Disponível em: https://www.dw.com/pt-br/os-cinco-maiores-problemas-ambientais-do-mundo-e-suas-solu%C3%A7%C3%B5es/a-36024985. Acesso em: 21 mar. 2022.                     </p>
                
 
                 <br><br><br>
