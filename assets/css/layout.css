@@ -218,6 +218,10 @@ a.btn-sesc{
     background-size: 100%;
 
 }
+
+.estiloReferencias p{
+    line-break: anywhere;
+}
 .estiloReferencias .container{ max-width: 800px; background-color: #fff; padding-top: 30px; padding-bottom: 30px;}
 .estiloReferencias h2{ color: #00767F;}
 .estilo2 .caixa.icone { color: #fff;}

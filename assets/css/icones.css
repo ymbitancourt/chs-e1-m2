@@ -33,7 +33,12 @@
   }
 
 .icone.nota::before{
-    background-image: url(../../assets/objetos/icone_nota2.png);
+    background-image: url(../../img/ico_exemplo.png);
+    width: 93px;
+    height: 115px;
+    background-color: transparent;
+    top: -20px;
+    left: -43px;
 }
 
 
