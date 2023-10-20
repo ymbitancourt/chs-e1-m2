@@ -1,7 +1,7 @@
-.notasmusicais{
+.notasmusicais {
     background: url(../../img/destaque_music01.svg) top left no-repeat, url(../../img/destaque_music02.svg) bottom right no-repeat;
     max-width: 600px;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
     display: block;
 }
@@ -10,20 +10,24 @@
     font-size: 0.75rem;
     text-align: center;
     word-break: break-all;
-  }
-
-  ul li .fa-check {
-      color: #00838D !important;
-  }
-.bloco.estilo1 ul .fa-check, .bloco.estilo2 ul .fa-check {
-      color: #fff !important;
 }
-.depoimentos{
+
+ul li .fa-check {
+    color: #00838D !important;
+}
+
+.bloco.estilo1 ul .fa-check,
+.bloco.estilo2 ul .fa-check {
+    color: #fff !important;
+}
+
+.depoimentos {
     max-width: 601px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
+
 .d-foto {
     display: block;
     margin-left: auto;
@@ -36,13 +40,14 @@
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
-    color:#f0efe3;
+    color: #f0efe3;
     position: relative;
-    }
-.d-nome > span {
-    font-size:1rem;
+}
+
+.d-nome>span {
+    font-size: 1rem;
     display: block;
-    }
+}
 
 .d-nome::after {
     content: "";
@@ -51,7 +56,7 @@
     overflow: hidden;
     background: url(../../assets/objetos/separador.png) top left / 100% auto no-repeat;
     display: block;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -72,19 +77,47 @@
     background: #00838d59;
     content: "";
     bottom: -1px;
-  }
-  .marcatexto {
-      position:relative
-  }
+}
 
-  .parallax {
+.marcatexto {
+    position: relative
+}
+
+.parallax {
     background-image: url("../../assets/objetos/parallax_territorio.jpg");
-      height: 500px;
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      margin-top: 80px;
-      margin-bottom: 80px;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width:768px) {
+    .sesc-audio-player {
+        width: 200px;
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+        margin: -160px auto 93px auto;
     }
-    
+}
+
+@media screen and (max-width:420px) {
+    .sesc-audio-player {
+        width: 38%;
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+        margin: -160px auto 213px auto;
+    }
+
+    .caixa {
+        margin-bottom: 40px;
+        word-wrap: break-word;
+        width: 60%;
+        margin: auto;
+        display: block;
+    }
+}
