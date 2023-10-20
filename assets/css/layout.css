@@ -409,13 +409,25 @@ p{
 }
 
 .caixa{
-    border: 2px solid #00838D;
+    /* border: 2px solid #00838D; */
     /* -moz-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     -webkit-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     -o-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     border-image: url(../img/border_pattern.png) 24 27 25 26 fill repeat; */
-    padding: 30px;
-    color: #00838D;  
+    /* padding: 30px;
+    color: #00838D;   */
+    
+    padding: 40px;
+    padding-left: 60px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: #00838D;
+    background-color: #00838D;
+    color: #fff;
+    border-radius: 10px;
 }
 .caixa.sem-linha {
     border: 0px none;
@@ -948,8 +960,8 @@ h3, .subtitulo{
     background-repeat: no-repeat;
     margin: 50px auto 30px auto;
     display: flex;
-    justify-content: center;
     align-items: flex-end;
+    
   }
   
 /* podcast */
@@ -1105,6 +1117,11 @@ h3, .subtitulo{
     margin: 20px auto;
     width: 100%;
     max-width: 450px;
+    transition: opacity 0.3 ease-in-out;
+    cursor: pointer;
+  }
+  .btVouF:hover{
+    opacity: 0.7;
   }
 /*iphones 5 pra baixo da vida*/
 @media only screen and (max-width: 1280px) and (min-width:321px){

@@ -1,10 +1,10 @@
 /*sesc audio player*/
 .sesc-audio-player{
-    background-color: #00838D;
-    color: white;
-    padding: 8px 20px;
-    line-height: 0;
-    margin: 20px 0;
+    width: 200px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin: -160px auto 40px auto;
 }
 .sesc-audio-player .timestamp{
     display: inline-block;
